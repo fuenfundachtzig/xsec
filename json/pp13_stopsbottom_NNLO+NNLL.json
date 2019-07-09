@@ -1,5 +1,11 @@
 {
-  "comment": "?", 
+  "initial state": "pp", 
+  "order": "NNLO+NNLL", 
+  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVstopsbottom", 
+  "contact": "mann, cern.ch", 
+  "tool": "?", 
+  "process_latex": "$\\tilde t\\tilde t$, $\\tilde b\\tilde b$",
+  "comment": "stop and sbottom cross sections with squarks and gluinos decoupled", 
   "reference": "?", 
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_stsb", 
@@ -1754,11 +1760,5 @@
       "579": 2995, 
       "580": 3000
     }
-  }, 
-  "initial state": "pp", 
-  "order": "?", 
-  "source": "?", 
-  "contact": "?", 
-  "tool": "?", 
-  "process_latex": "$\\tilde t\\tilde t$, $\\tilde b\\tilde b$"
+  }
 }

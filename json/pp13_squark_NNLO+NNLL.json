@@ -1,5 +1,11 @@
 {
-  "comment": "?", 
+  "initial state": "pp", 
+  "order": "NNLO+NNLL", 
+  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVsquarkantisquark", 
+  "contact": "mann, cern.ch", 
+  "tool": "?", 
+  "process_latex": "$\\tilde q\\tilde q$",
+  "comment": "squark-antisquark cross sections with gluinos (and stops) decoupled", 
   "reference": "?", 
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_sqsq", 
@@ -1694,11 +1700,5 @@
       "559": 2995, 
       "560": 3000
     }
-  }, 
-  "initial state": "pp", 
-  "order": "?", 
-  "source": "?", 
-  "contact": "?", 
-  "tool": "?", 
-  "process_latex": "$\\tilde q\\tilde q$"
+  }
 }

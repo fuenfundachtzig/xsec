@@ -1,5 +1,11 @@
 {
-  "comment": "?", 
+  "initial state": "pp", 
+  "order": "?", 
+  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVgluglu", 
+  "contact": "mann, cern.ch", 
+  "tool": "?", 
+  "process_latex": "$\\tilde g\\tilde g$",
+  "comment": "gluino-gluino cross sections with squarks decoupled", 
   "reference": "?", 
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_glgl", 
@@ -1514,11 +1520,5 @@
       "499": 2995, 
       "500": 3000
     }
-  }, 
-  "initial state": "pp", 
-  "order": "?", 
-  "source": "?", 
-  "contact": "?", 
-  "tool": "?", 
-  "process_latex": "$\\tilde g\\tilde g$"
+  }
 }
