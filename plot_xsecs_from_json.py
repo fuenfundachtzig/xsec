@@ -27,13 +27,21 @@ import matplotlib.pyplot as plt
 
 
 ### helpers
-def PlotXsec(mass, xsec_pb, unc_pb, label):
-  baseline = plt.plot(mass, xsec_pb, label = label)
+def PlotXsec(df, label):
   plt.yscale("log")
-  plt.fill_between(mass, xsec_pb-unc_pb, xsec_pb+unc_pb, alpha = 0.3, facecolor = baseline[0].get_color(), linewidth=0)
+  baseline = plt.plot(df.mass_GeV, df.xsec_pb, label = label)
+  # check which uncertainty type we have
+  if "unc_up_pb" in df.columns:
+    # asymmetric
+    plt.fill_between(df.mass_GeV, df.xsec_pb - df.unc_down_pb, df.xsec_pb + df.unc_up_pb, alpha = 0.2, facecolor = baseline[0].get_color(), linewidth=0)
+  else:
+    # assume symmetric always present
+    plt.fill_between(df.mass_GeV, df.xsec_pb - df.unc_pb     , df.xsec_pb + df.unc_pb   , alpha = 0.2, facecolor = baseline[0].get_color(), linewidth=0)
  
   
 ### main
+
+# init plotting
 plt.ion()
 use_latex = False
 if use_latex:
@@ -60,9 +68,10 @@ filenames = [
 
 # load data and plot
 for filename in filenames:
+  print filename
   data = json.load(open(os.path.join("json", filename)))
   df   = pd.DataFrame.from_dict(data["data"]).sort_values("mass_GeV")
-  PlotXsec(df.mass_GeV, df.xsec_pb, df.unc_pb, data["process_latex"])
+  PlotXsec(df, data["process_latex"])
 
 # draw legend and style plot
 plt.xlabel("particle mass [GeV]")

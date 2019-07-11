@@ -19,6 +19,7 @@ Physics:
   * mass_GeV: mass in GeV
   * xsec_pb: cross section in pb
   * unc_pb: (symmetric) uncertainty on cross section in pb
+  * unc_up_pb, unc_down_pb: asymmetric upward- and downward uncertainties on cross section in pb
 
 Other metadata:
 * tool: tool name and version
