@@ -79,12 +79,12 @@ for filename in filenames:
 plt.xlabel("particle mass [GeV]")
 plt.ylabel("cross section [pb]")
 plt.grid()
-plt.xlim(0, 3000)
-plt.ylim(1e-7, 1e3)
+plt.xlim(500, 3000)
+plt.ylim(1e-8, 1e2)
 plt.legend(ncol = 2, framealpha = 1)
 plt.locator_params(axis = "y", base = 100) # for log-scaled axis, it's LogLocator, not MaxNLocator
 #plt.title("$pp$, $\sqrt{s} = 13$ TeV, NLO+NLL - NNLO$_\mathregular{approx}$+NNLL", fontsize = 9, loc = "right")
-plt.title("$pp$, $\sqrt{s} = 13$ TeV, NLO+NLL", fontsize = 9, loc = "right")
+plt.title("$pp$, $\sqrt{s} = 13$ TeV, NNLO$_\mathregular{approx}$+NNLL", fontsize = 9, loc = "right")
 plt.savefig("SUSY_xsecs.pdf")
 
 

@@ -4,7 +4,7 @@
   "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVstopsbottom", 
   "contact": "mann, cern.ch", 
   "tool": "?", 
-  "process_latex": "$\\tilde t\\tilde t$, $\\tilde b\\tilde b$",
+  "process_latex": "$\\tilde t\\tilde t^*$, $\\tilde b\\tilde b^*$",
   "comment": "stop and sbottom production cross sections with squarks and gluinos decoupled", 
   "reference": "?", 
   "Ecom [GeV]": "13000", 
