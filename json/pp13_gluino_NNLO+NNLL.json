@@ -1,11 +1,11 @@
 {
   "initial state": "pp", 
-  "order": "?", 
+  "order": "NNLO+NNLL", 
   "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVgluglu", 
   "contact": "mann, cern.ch", 
   "tool": "?", 
   "process_latex": "$\\tilde g\\tilde g$",
-  "comment": "gluino-gluino cross sections with squarks decoupled", 
+  "comment": "gluino-gluino production cross sections with squarks decoupled", 
   "reference": "?", 
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_glgl", 

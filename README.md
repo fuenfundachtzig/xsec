@@ -1,5 +1,5 @@
 # xsec
-Cross sections for high-energy physics.
+Cross sections for high-energy physics, https://github.com/fuenfundachtzig/xsec
 
 Currently contains data for LHC, i.e. proton-proton collisions, at 13 TeV.
 

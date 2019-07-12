@@ -5,7 +5,7 @@
   "contact": "mann, cern.ch", 
   "tool": "?", 
   "process_latex": "$\\tilde q\\tilde q$",
-  "comment": "squark-antisquark cross sections with gluinos (and stops) decoupled", 
+  "comment": "Squark-antisquark production cross sections with gluinos (and stops) decoupled. The cross-section values reported here assume a 10-fold squark degeneracy (i. e. ~u, ~d, ~c, ~s, ~b mass degenerate). They have been computed for decoupled gluinos, i. e. in the limit of large gluino masses (and therefore differ from the values in Fig. 1 of arXiv:1607.07741).", 
   "reference": "?", 
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_sqsq", 
