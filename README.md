@@ -1,12 +1,18 @@
 # xsec
-Cross sections for high-energy physics, https://github.com/fuenfundachtzig/xsec
+[This repository][1] contains cross sections for high-energy physics.
 
-Currently contains data for LHC, i.e. proton-proton collisions, at 13 TeV.
+It currently contains data for the [LHC][2], i.e. proton-proton collisions, at 13 TeV. The values are taken from the [public TWiki pages][3] of the LHC SUSY Cross Section Working Group. 
 
-## Fields in JSON files
-Cross-section data in stored in JSON files in the folder `json/`. (Currently some fields still need to be filled.)
+If you would like to contribute by adding more cross sections or in case you find an issue with the cross sections, please get in contact or make a pull request.
 
-The script `plot_xsecs_from_json.py` is an example how to plot some of the available cross sections. (Currently it still has a dependence on pandas that could be removed.)
+[1]: https://github.com/fuenfundachtzig/xsec
+[2]: https://home.cern/science/accelerators/large-hadron-collider
+[3]: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections
+
+### Fields in JSON files
+The cross-section data is stored as JSON files in the folder `json/`.
+
+The script `plot_xsecs_from_json.py` gives an example how to make a plot with the cross sections. (Currently it still has a dependence on the `pandas` Python module that could be removed.)
 
 Physics:
 * initial state: 
