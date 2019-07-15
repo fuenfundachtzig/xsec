@@ -3,13 +3,13 @@
   "order": "NLO+NLL", 
   "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVslepslep", 
   "contact": "mann, cern.ch", 
-  "tool": "?", 
+  "tool": "Resummino, v1.X.X?", 
   "process_latex": "$\\tilde \\ell_L\\tilde \\ell_L$",
   "comment": "slepton-pair cross sections (partners of left-handed leptons)", 
-  "reference": "?", 
+  "reference": "arXiv:1310.2621",
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_slep_L", 
-  "PDF set": "?", 
+  "PDF set": "CT10nlo", 
   "data": {
     "xsec_pb": {
       "0": 0.27086192, 

@@ -1,15 +1,15 @@
 {
   "initial state": "pp", 
   "order": "NLO+NLL", 
-  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVslepslep", 
+  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVslepslep",
   "contact": "mann, cern.ch", 
-  "tool": "?", 
+  "tool": "Resummino, v1.X.X?", 
   "process_latex": "$\\tilde \\tau_L\\tilde \\tau_L$",
   "comment": "stau-pair cross sections (partners of left-handed tau leptons), same as for other sleptons", 
-  "reference": "?", 
+  "reference": "arXiv:1310.2621",
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_stau_L", 
-  "PDF set": "?", 
+  "PDF set": "CT10nlo", 
   "data": {
     "xsec_pb": {
       "0": 0.27086192, 

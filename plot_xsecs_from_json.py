@@ -54,18 +54,25 @@ else:
 
 # define datasets (NOTE: files that are commented out do exist and can be used)
 filenames = [
-  "pp13_gluino_NNLO+NNLL.json",
-  "pp13_gluinosquark_NNLO+NNLL.json",
-  "pp13_squark_NNLO+NNLL.json",
-  "pp13_stopsbottom_NNLO+NNLL.json",
+  #"pp13_gluino_NNLO+NNLL.json",
+  #"pp13_gluinosquark_NNLO+NNLL.json",
+  #"pp13_squark_NNLO+NNLL.json",
+  #"pp13_stopsbottom_NNLO+NNLL.json",
   ##
   #"pp13_hino_NLO+NLL.json",
   #"pp13_slep_L_NLO+NLL.json",
   #"pp13_slep_R_NLO+NLL.json",
+  #"pp13_stau_L_NLO+NLL.json",
+  #"pp13_stau_R_NLO+NLL.json",
   #"pp13_wino_C1C1_NLO+NLL.json",
   #"pp13_winom_C1N2_NLO+NLL.json",
   #"pp13_winop_C1N2_NLO+NLL.json",
   #"pp13_winopm_C1N2_NLO+NLL.json",
+  ##
+  "pp13_stau_L_NLO+NLL.json",
+  "pp13_stau_R_NLO+NLL.json",
+  "pp13_stau_L_NLO+NLL_PDF4LHC.json",
+  "pp13_stau_R_NLO+NLL_PDF4LHC.json",
 ]
 
 # load data and plot
@@ -79,12 +86,13 @@ for filename in filenames:
 plt.xlabel("particle mass [GeV]")
 plt.ylabel("cross section [pb]")
 plt.grid()
-plt.xlim(500, 3000)
-plt.ylim(1e-8, 1e2)
+plt.xlim(100, 1000)
+plt.ylim(1e-6, 1e-1)
 plt.legend(ncol = 2, framealpha = 1)
 plt.locator_params(axis = "y", base = 100) # for log-scaled axis, it's LogLocator, not MaxNLocator
 #plt.title("$pp$, $\sqrt{s} = 13$ TeV, NLO+NLL - NNLO$_\mathregular{approx}$+NNLL", fontsize = 9, loc = "right")
-plt.title("$pp$, $\sqrt{s} = 13$ TeV, NNLO$_\mathregular{approx}$+NNLL", fontsize = 9, loc = "right")
+#plt.title("$pp$, $\sqrt{s} = 13$ TeV, NNLO$_\mathregular{approx}$+NNLL", fontsize = 9, loc = "right")
+plt.title("$pp$, $\sqrt{s} = 13$ TeV, NLO+NLL", fontsize = 9, loc = "right")
 plt.savefig("SUSY_xsecs.pdf")
 
 
