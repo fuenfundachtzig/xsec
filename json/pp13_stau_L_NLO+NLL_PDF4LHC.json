@@ -3,7 +3,7 @@
   "order": "NLO+NLL", 
   "source": "numbers provided by Laura Jeanty", 
   "contact": "mann, cern.ch", 
-  "tool": "Resummino", 
+  "tool": "Resummino 2.0.1", 
   "process_latex": "$\\tilde \\tau_L\\tilde \\tau_L$",
   "comment": "Stau-pair cross sections (partners of left-handed tau leptons), same as for other sleptons. Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties are computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.", 
   "reference": "arXiv:1310.2621",
