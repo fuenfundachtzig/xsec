@@ -33,7 +33,7 @@ def PlotXsec(df, label):
   # check which uncertainty type we have
   if "unc_up_pb" in df.columns:
     # asymmetric
-    plt.fill_between(df.mass_GeV, df.xsec_pb - df.unc_down_pb, df.xsec_pb + df.unc_up_pb, alpha = 0.2, facecolor = baseline[0].get_color(), linewidth=0)
+    plt.fill_between(df.mass_GeV, df.xsec_pb + df.unc_down_pb, df.xsec_pb + df.unc_up_pb, alpha = 0.2, facecolor = baseline[0].get_color(), linewidth=0)
   else:
     # assume symmetric always present
     plt.fill_between(df.mass_GeV, df.xsec_pb - df.unc_pb     , df.xsec_pb + df.unc_pb   , alpha = 0.2, facecolor = baseline[0].get_color(), linewidth=0)
