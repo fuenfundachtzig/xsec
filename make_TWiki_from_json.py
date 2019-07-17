@@ -43,6 +43,7 @@ filenames = [
   #"pp13_stau_R_NLO+NLL.json",
   "pp13_stau_L_NLO+NLL_PDF4LHC.json",
   "pp13_stau_R_NLO+NLL_PDF4LHC.json",
+  "pp13_stau_LR_NLO+NLL_PDF4LHC.json",
 ]
 
 
@@ -63,11 +64,12 @@ for filename in filenames:
   
   with open(path_out, "w") as outf:
     #header = " | ".join([field.replace("_pb", " [pb]") for field in fields])
-    print >>outf, "| mass [GeV] | xsec [pb] | %s |" % header
+    #print >>outf, "| mass [GeV] | xsec [pb] | %s |" % header
+    print >>outf, "| mass [GeV] | xsec [pb] |"
     
     for idx, row in df.iterrows():
-      s = " | ".join([("%.2f %%" % (row[field] * 100)) for field in fields])
-      print >>outf, "| %d | %s | %s |" % (row.mass_GeV, row.xsec_pb, s)
+      s = " | ".join([("%.1f %%" % (row[field] * 100)) for field in fields]) # FIXME: actually we should round up uncertainties (but then we'd need to treat up and down separately)
+      print >>outf, "| %d | %.4g | %s |" % (row.mass_GeV, row.xsec_pb, s)
       
   print "Wrote %s" % path_out
 
