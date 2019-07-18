@@ -9,10 +9,16 @@ If you would like to contribute by adding more cross sections or in case you fin
 [2]: https://home.cern/science/accelerators/large-hadron-collider
 [3]: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections
 
+### Scripts
+Several scripts are included in the repository. The most important one is [`plot_xsecs_from_json.py`](plot_xsecs_from_json.py), which gives an example how to make a plot with the cross sections. (Currently it still has a dependence on the `pandas` Python module that could be removed.)
+
+There are also the following helper scripts:
+* `make_overview.py`: produces a PDF (using LaTeX) listing all available cross sections from the `json/` folder
+* `make_TWiki_from_json.py`: makes a table in TWiki format
+
+
 ### Fields in JSON files
 The cross-section data is stored as JSON files in the folder `json/`.
-
-The script `plot_xsecs_from_json.py` gives an example how to make a plot with the cross sections. (Currently it still has a dependence on the `pandas` Python module that could be removed.)
 
 Physics:
 * initial state: 
