@@ -59,27 +59,29 @@ filenames = [
   #"pp13_squark_NNLO+NNLL.json",
   #"pp13_stopsbottom_NNLO+NNLL.json",
   ##
-  #"pp13_hino_NLO+NLL.json",
-  #"pp13_slep_L_NLO+NLL.json",
-  #"pp13_slep_R_NLO+NLL.json",
-  #"pp13_stau_L_NLO+NLL.json",
-  #"pp13_stau_R_NLO+NLL.json",
-  #"pp13_wino_C1C1_NLO+NLL.json",
+  "pp13_hino_NLO+NLL.json",
+  "pp13_wino_C1C1_NLO+NLL.json",
   #"pp13_winom_C1N2_NLO+NLL.json",
   #"pp13_winop_C1N2_NLO+NLL.json",
   #"pp13_winopm_C1N2_NLO+NLL.json",
   ##
-  "pp13_stau_L_NLO+NLL.json",
-  "pp13_stau_R_NLO+NLL.json",
+  #"pp13_slep_L_NLO+NLL_PDF4LHC.json",
+  #"pp13_slep_R_NLO+NLL_PDF4LHC.json",
   "pp13_stau_L_NLO+NLL_PDF4LHC.json",
   "pp13_stau_R_NLO+NLL_PDF4LHC.json",
+  "pp13_stau_LR_NLO+NLL_PDF4LHC.json",
 ]
 
 # load data and plot
 for filename in filenames:
   print filename
   data = json.load(open(os.path.join("json", filename)))
-  df   = pd.DataFrame.from_dict(data["data"]).sort_values("mass_GeV")
+  df   = pd.DataFrame.from_dict(data["data"], orient = "index")
+  # restore mass as column and sort 
+  df["mass_GeV"] = df.index.astype(int)
+  df = df.sort_values("mass_GeV")
+  df.reset_index(inplace = True, drop = True)
+  # plot
   PlotXsec(df, data["process_latex"])
 
 # draw legend and style plot
