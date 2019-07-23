@@ -51,7 +51,11 @@ for filename in filenames:
   
   # load
   data = json.load(open(os.path.join("json", filename)))
-  df   = pd.DataFrame.from_dict(data["data"]).sort_values("mass_GeV")
+  df   = pd.DataFrame.from_dict(data["data"], orient = "index")
+  # restore mass as column and sort 
+  df["mass_GeV"] = df.index.astype(int)
+  df = df.sort_values("mass_GeV")
+  df.reset_index(inplace = True, drop = True)
   
   # compute fields with percentage uncertainties
   for v in ["", "down_", "up_"]:
