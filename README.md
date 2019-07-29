@@ -40,3 +40,10 @@ Other metadata:
 * comment: comment on assumptions that were used to derive the cross sections
 * source: where cross-section values have been taken from or are available
 * contact: contact mail address
+
+
+### Example plot
+
+The following plot is an example output of [`plot_xsecs_from_json.py`](plot_xsecs_from_json.py):
+ 
+![Plot of various LHC SUSY cross sections at 13 TeV](https://twiki.cern.ch/twiki/pub/LHCPhysics/SUSYCrossSections/SUSY_xsecs_20190729.png "LHC SUSY cross sections at 13 TeV")
