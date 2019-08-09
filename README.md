@@ -1,7 +1,7 @@
 # xsec
 [This repository][1] contains cross sections for high-energy physics.
 
-It currently contains data for the [LHC][2], i.e. proton-proton collisions, at 13 TeV. The values are taken from the [public TWiki pages][3] of the LHC SUSY Cross Section Working Group. 
+It currently contains data for the [LHC][2], i.e. proton-proton collisions, at 13 TeV. The values are taken from the [public TWiki pages][3] of the LHC SUSY Cross Section Working Group, where also the scientific references for the tools used to compute the cross sections can be found.
 
 If you would like to contribute by adding more cross sections or in case you find an issue with the cross sections, please get in contact or make a pull request.
 
