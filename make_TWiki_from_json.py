@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 
 # Make TWiki table from cross section as JSON.
@@ -10,6 +10,7 @@
 
 
 ### imports
+from __future__ import print_function # for compatibility with Python 2
 import os
 import json
 
@@ -69,11 +70,11 @@ for filename in filenames:
   with open(path_out, "w") as outf:
     #header = " | ".join([field.replace("_pb", " [pb]") for field in fields])
     #print >>outf, "| mass [GeV] | xsec [pb] | %s |" % header
-    print >>outf, "| mass [GeV] | xsec [pb] |"
+    print("| mass [GeV] | xsec [pb] |", file=outf)
     
     for idx, row in df.iterrows():
       s = " | ".join([("%.1f %%" % (row[field] * 100)) for field in fields]) # FIXME: actually we should round up uncertainties (but then we'd need to treat up and down separately)
-      print >>outf, "| %d | %.4g | %s |" % (row.mass_GeV, row.xsec_pb, s)
+      print("| %d | %.4g | %s |" % (row.mass_GeV, row.xsec_pb, s), file=outf)
       
-  print "Wrote %s" % path_out
+  print("Wrote %s" % path_out)
 

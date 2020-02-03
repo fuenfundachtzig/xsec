@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 
 # Make overview (LaTeX / PDF) of available from cross sections available as JSON.
@@ -16,6 +16,7 @@
 
 
 ### imports
+from __future__ import print_function # for compatibility with Python 2
 import os
 import glob
 import json
@@ -33,22 +34,21 @@ def StringToLatex(s):
 ### main
 path_out = "overview.tex"
 with open(path_out, "w") as outf:
-  print >>outf, r"""\documentclass[a4paper,10pt]{scrartcl} 
+  
+  print(r"""\documentclass[a4paper,10pt]{scrartcl} 
   \usepackage[utf8]{inputenc}
-  \begin{document}
-"""
+  \begin{document}""", file=outf)
 
   filenames = sorted(glob.glob("json/*.json"))
-  print >>outf, r"Found %d JSON files: \begin{itemize}" % len(filenames)
+  print("Found %d JSON files in repository:\n\\begin{itemize}" % len(filenames), file=outf)
   for filename in filenames:
     data = json.load(open(filename))
-    print >>outf, r"\item %s (\texttt{%s})" % (data["process_latex"], StringToLatex(filename))
-    print >>outf, r"\begin{itemize}" 
-    print >>outf, r"\item %s" % StringToLatex(data["comment"])
-    print >>outf, r"\end{itemize}"
+    print(r"\item %s (\texttt{%s})" % (data["process_latex"], StringToLatex(filename)), file=outf)
+    print(r"\begin{itemize}", file=outf) 
+    print(r"\item %s" % StringToLatex(data["comment"]), file=outf)
+    print(r"\end{itemize}", file=outf)
     
-  print >>outf, r"\end{itemize}\end{document}"
-    
-        
-print "Wrote %s" % path_out
+  print(r"\end{itemize}\end{document}", file=outf)
+            
+print("Wrote %s" % path_out)
 

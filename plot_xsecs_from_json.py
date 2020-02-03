@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 
 # Example script to create a plot of cross sections from data in JSON format.
@@ -74,7 +74,7 @@ filenames = [
 
 # load data and plot
 for filename in filenames:
-  print filename
+  print(filename)
   data = json.load(open(os.path.join("json", filename)))
   df   = pd.DataFrame.from_dict(data["data"], orient = "index")
   # restore mass as column and sort 
