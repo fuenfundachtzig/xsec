@@ -13,7 +13,7 @@ If you would like to contribute by adding more cross sections or in case you fin
 Several scripts are included in the repository. The most important one is [`plot_xsecs_from_json.py`](plot_xsecs_from_json.py), which gives an example how to make a plot with the cross sections. (Currently it still has a dependence on the `pandas` Python module that could be removed.)
 
 There are also the following helper scripts:
-* `make_overview.py`: produces a PDF (using LaTeX) listing all available cross sections from the `json/` folder
+* `make_overview.py`: produces a LaTeX file listing all available cross sections from the `json/` folder
 * `make_TWiki_from_json.py`: makes a table in TWiki format
 
 
@@ -21,25 +21,24 @@ There are also the following helper scripts:
 The cross-section data is stored as JSON files in the folder `json/`.
 
 Physics:
-* initial state: 
-  * pp: proton-proton collisions
-* Ecom [GeV]: center-of-mass energy in GeV
-* process_id: unique ID for process
-* process_latex: process (final state) in LaTeX code
-* PDF set:
-* data: cross-section data as Python dictionary
-  * mass_GeV: mass in GeV
-  * xsec_pb: cross section in pb
-  * unc_pb: (symmetric) uncertainty on cross section in pb
-  * unc_up_pb, unc_down_pb: asymmetric upward- and downward uncertainties on cross section in pb
+* `initial state`: 
+  * pp = proton-proton collisions
+* `Ecom [GeV]`: center-of-mass energy in GeV
+* `process_id`: unique ID for process
+* `process_latex`: process (final state) in LaTeX code
+* `PDF set`: PDF set used in computation of cross sections
+* `data`: cross-section data as nested dictionary (i.e. collection of key-value pairs), key = mass in GeV, value = dictionary with following entries:
+  * `xsec_pb`: cross section in pb
+  * `unc_pb`: (symmetric) uncertainty on cross section in pb
+  * `unc_up_pb`, `unc_down_pb`: asymmetric upward- and downward uncertainties on cross section in pb
 
 Other metadata:
-* tool: tool name and version
-* order: computational order
-* reference: citable reference (mostly for tool used to compute the cross sections)
-* comment: comment on assumptions that were used to derive the cross sections
-* source: where cross-section values have been taken from or are available
-* contact: contact mail address
+* `tool`: tool name and version
+* `order`: computational order
+* `reference`: citable reference (mostly for tool used to compute the cross sections)
+* `comment`: comment on assumptions that were used to derive the cross sections
+* `source`: where cross-section values have been taken from or are available
+* `contact`: contact mail address
 
 
 ### Example plot
