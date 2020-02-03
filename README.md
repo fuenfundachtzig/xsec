@@ -20,23 +20,23 @@ There are also the following helper scripts:
 ### Fields in JSON files
 The cross-section data is stored as JSON files in the folder `json/`.
 
-Physics:
+Physics process:
 * `initial state`: 
   * pp = proton-proton collisions
 * `Ecom [GeV]`: center-of-mass energy in GeV
 * `process_id`: unique ID for process
 * `process_latex`: process (final state) in LaTeX code
 * `PDF set`: PDF set used in computation of cross sections
-* `data`: cross-section data as nested dictionary (i.e. collection of key-value pairs), key = mass in GeV, value = dictionary with following entries:
+* `data`: Cross-section data as nested dictionary (i.e. collection of key-value pairs). In our models, we usually consider production of pairs of the same (or degenerate) SUSY particles, i.e. we need only one mass parameter to define the production cross section. In these cases, we have key = mass in GeV, value = dictionary with following entries:
   * `xsec_pb`: cross section in pb
   * `unc_pb`: (symmetric) uncertainty on cross section in pb
   * `unc_up_pb`, `unc_down_pb`: asymmetric upward- and downward uncertainties on cross section in pb
 
-Other metadata:
-* `tool`: tool name and version
+Additional metadata:
+* `tool`: name (and version) of the tool used for computing the cross sections 
 * `order`: computational order
 * `reference`: citable reference (mostly for tool used to compute the cross sections)
-* `comment`: comment on assumptions that were used to derive the cross sections
+* `comment`: comment on assumptions that were used in the setup / computation of the cross sections
 * `source`: where cross-section values have been taken from or are available
 * `contact`: contact mail address
 

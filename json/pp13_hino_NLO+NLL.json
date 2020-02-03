@@ -3,13 +3,14 @@
   "order": "NLO+NLL", 
   "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVhino", 
   "contact": "LesyaShchutska", 
-  "tool": "?", 
+  "tool": "Resummino, v1.X.X?", 
   "process_latex": "$\\tilde\\chi\\tilde\\chi$ (higgsino)",
-  "comment": "Higgsino-like Cross Sections (fully-degenerate triplet)", 
+  "comment": "Higgsino-like Cross Sections (fully-degenerate triplet). The production cross sections are computed at NLO plus next-to-leading-log (NLL) precision in a limit of mass-degenerate higgsino N2, C1 and N1 with all the other sparticles assumed to be heavy and decoupled.
+  Assumes pure higgsino-like pair production and gives the sum of the relevant processes: N1N2, N1C1, N2C1 (=N1C1), C1C1 (N1N1 and N2N2 vanish).", 
   "reference": "?", 
   "Ecom [GeV]": "13000", 
   "process_id": "pp13_hino", 
-  "PDF set": "?", 
+  "PDF set": "PDF4LHC", 
   "data": {
     "900": {
       "unc_pb": 0.00020482, 
