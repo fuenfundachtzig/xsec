@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 
-# Example script to create a plot of cross sections from data in JSON format.
+# Example script to create 1-D plots of cross sections as function of mass from data in JSON format.
 # 
 # External requirements (Python modules):
 # 
@@ -70,6 +70,8 @@ filenames = [
   #"pp13_stau_L_NLO+NLL_PDF4LHC.json",
   #"pp13_stau_R_NLO+NLL_PDF4LHC.json",
   "pp13_stau_LR_NLO+NLL_PDF4LHC.json",
+  ## JSON files with 2 mas parameters cannot be plotted yet
+  #"pp13_hinosplit_C1C1_NLO+NLL.json",
 ]
 
 # load data and plot
