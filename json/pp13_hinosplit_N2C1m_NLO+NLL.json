@@ -1,0 +1,423 @@
+{
+  "initial state": "pp",
+  "Ecom [GeV]": "13000",
+  "process_id": "pp13_hinosplit_C1mN2",
+  "process_latex": "$\\tilde\\chi_1^-\\tilde\\chi_2^0$ (higgsino)",
+  "PDF set": "CTEQ6.6 and MSTW2008nlo90cl",
+  "order": "NLO+NLL",
+  "tool": "Resummino",
+  "comment": "The following cross sections are for pure higgsino-like pair production. They differ from the fully-degenerate case because here not all of the higgsinos are assumed to have the same mass, but there is a mass splitting between the two lightest neutralinos of dM = m(N2) - m(N1), and the mass of the lighter chargino is half-way in between the two neutralinos. These NLO+NLL cross-sections were computed using Resummino and an envelope of the CTEQ6.6 and MSTW2008nlo90cl PDFs. In addition, a dedicated calculation of the branching ratios (BR) of the into two leptons and the into a lepton and neutrino (including the tau lepton(s) where possible) was done with SUSYHit. In this calculation the decays of N2 into C1+X or N1+photon are not allowed. The values are listed in the TWiki.",
+  "reference": "?",
+  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVhinosplit",
+  "contact": "JoanaMachadoMiguens",
+  "data": {
+    "100": {
+      "60": {
+        "xsec_pb": 3.204536,
+        "unc_pb": 0.0414613
+      },
+      "80": {
+        "xsec_pb": 2.624917,
+        "unc_pb": 0.0422691
+      }
+    },
+    "101.5": {
+      "100": {
+        "xsec_pb": 2.072128,
+        "unc_pb": 0.042935
+      }
+    },
+    "102": {
+      "100": {
+        "xsec_pb": 2.044744,
+        "unc_pb": 0.0432622
+      }
+    },
+    "103": {
+      "100": {
+        "xsec_pb": 1.988201,
+        "unc_pb": 0.043375
+      }
+    },
+    "105": {
+      "100": {
+        "xsec_pb": 1.881323,
+        "unc_pb": 0.0436097
+      }
+    },
+    "110": {
+      "100": {
+        "xsec_pb": 1.644517,
+        "unc_pb": 0.0441862
+      },
+      "80": {
+        "xsec_pb": 1.960668,
+        "unc_pb": 0.043429
+      }
+    },
+    "110p0": {
+      "100": {
+        "xsec_pb": 1.643709,
+        "unc_pb": 0.044102
+      }
+    },
+    "115": {
+      "100": {
+        "xsec_pb": 1.444309,
+        "unc_pb": 0.0447168
+      }
+    },
+    "120": {
+      "100": {
+        "xsec_pb": 1.274297,
+        "unc_pb": 0.0452917
+      },
+      "60": {
+        "xsec_pb": 1.766386,
+        "unc_pb": 0.043834
+      },
+      "80": {
+        "xsec_pb": 1.497909,
+        "unc_pb": 0.0445207
+      }
+    },
+    "126.5": {
+      "125": {
+        "xsec_pb": 0.902176,
+        "unc_pb": 0.046696
+      }
+    },
+    "127": {
+      "125": {
+        "xsec_pb": 0.892463,
+        "unc_pb": 0.0467992
+      }
+    },
+    "128": {
+      "125": {
+        "xsec_pb": 0.873003,
+        "unc_pb": 0.0469525
+      }
+    },
+    "130": {
+      "100": {
+        "xsec_pb": 1.003582,
+        "unc_pb": 0.0463045
+      },
+      "125": {
+        "xsec_pb": 0.835443,
+        "unc_pb": 0.0471545
+      }
+    },
+    "135": {
+      "125": {
+        "xsec_pb": 0.750031,
+        "unc_pb": 0.0476538
+      }
+    },
+    "140": {
+      "100": {
+        "xsec_pb": 0.801733,
+        "unc_pb": 0.0472781
+      },
+      "125": {
+        "xsec_pb": 0.675272,
+        "unc_pb": 0.0481453
+      },
+      "80": {
+        "xsec_pb": 0.921859,
+        "unc_pb": 0.046635
+      }
+    },
+    "145": {
+      "125": {
+        "xsec_pb": 0.609593,
+        "unc_pb": 0.048629
+      }
+    },
+    "152": {
+      "150": {
+        "xsec_pb": 0.453644,
+        "unc_pb": 0.0500588
+      }
+    },
+    "153": {
+      "150": {
+        "xsec_pb": 0.445237,
+        "unc_pb": 0.0501965
+      }
+    },
+    "155": {
+      "125": {
+        "xsec_pb": 0.500489,
+        "unc_pb": 0.0495738
+      },
+      "150": {
+        "xsec_pb": 0.429073,
+        "unc_pb": 0.0503323
+      }
+    },
+    "160": {
+      "100": {
+        "xsec_pb": 0.529987,
+        "unc_pb": 0.049254
+      },
+      "150": {
+        "xsec_pb": 0.391727,
+        "unc_pb": 0.0507824
+      }
+    },
+    "165": {
+      "125": {
+        "xsec_pb": 0.41465,
+        "unc_pb": 0.0504892
+      },
+      "150": {
+        "xsec_pb": 0.358289,
+        "unc_pb": 0.0512303
+      }
+    },
+    "170": {
+      "150": {
+        "xsec_pb": 0.328355,
+        "unc_pb": 0.0516616
+      }
+    },
+    "178": {
+      "175": {
+        "xsec_pb": 0.250217,
+        "unc_pb": 0.05271
+      }
+    },
+    "180": {
+      "150": {
+        "xsec_pb": 0.277139,
+        "unc_pb": 0.0525163
+      },
+      "175": {
+        "xsec_pb": 0.24231,
+        "unc_pb": 0.05292
+      }
+    },
+    "185": {
+      "125": {
+        "xsec_pb": 0.291221,
+        "unc_pb": 0.0522599
+      },
+      "175": {
+        "xsec_pb": 0.223808,
+        "unc_pb": 0.053299
+      }
+    },
+    "190": {
+      "150": {
+        "xsec_pb": 0.235433,
+        "unc_pb": 0.0533396
+      },
+      "175": {
+        "xsec_pb": 0.20701,
+        "unc_pb": 0.053677
+      }
+    },
+    "195": {
+      "175": {
+        "xsec_pb": 0.19173,
+        "unc_pb": 0.054073
+      }
+    },
+    "202": {
+      "200": {
+        "xsec_pb": 0.153068,
+        "unc_pb": 0.0555712
+      }
+    },
+    "203": {
+      "200": {
+        "xsec_pb": 0.150885,
+        "unc_pb": 0.0555835
+      }
+    },
+    "205": {
+      "200": {
+        "xsec_pb": 0.14663,
+        "unc_pb": 0.0557937
+      }
+    },
+    "210": {
+      "150": {
+        "xsec_pb": 0.1728,
+        "unc_pb": 0.054917
+      },
+      "200": {
+        "xsec_pb": 0.136613,
+        "unc_pb": 0.0561602
+      }
+    },
+    "215": {
+      "200": {
+        "xsec_pb": 0.127414,
+        "unc_pb": 0.0565164
+      }
+    },
+    "220": {
+      "200": {
+        "xsec_pb": 0.118953,
+        "unc_pb": 0.0568771
+      }
+    },
+    "230": {
+      "200": {
+        "xsec_pb": 0.103825,
+        "unc_pb": 0.0575088
+      },
+      "225": {
+        "xsec_pb": 0.093283,
+        "unc_pb": 0.057681
+      }
+    },
+    "235": {
+      "225": {
+        "xsec_pb": 0.087488,
+        "unc_pb": 0.057997
+      }
+    },
+    "240": {
+      "200": {
+        "xsec_pb": 0.091228,
+        "unc_pb": 0.0582501
+      },
+      "225": {
+        "xsec_pb": 0.082122,
+        "unc_pb": 0.05834
+      }
+    },
+    "252": {
+      "250": {
+        "xsec_pb": 0.064118,
+        "unc_pb": 0.0600902
+      }
+    },
+    "253": {
+      "250": {
+        "xsec_pb": 0.063361,
+        "unc_pb": 0.0600697
+      }
+    },
+    "255": {
+      "250": {
+        "xsec_pb": 0.061877,
+        "unc_pb": 0.0602748
+      }
+    },
+    "260": {
+      "200": {
+        "xsec_pb": 0.070934,
+        "unc_pb": 0.0595487
+      },
+      "250": {
+        "xsec_pb": 0.058343,
+        "unc_pb": 0.0605795
+      }
+    },
+    "265": {
+      "250": {
+        "xsec_pb": 0.05493,
+        "unc_pb": 0.0607704
+      }
+    },
+    "270": {
+      "250": {
+        "xsec_pb": 0.051973,
+        "unc_pb": 0.0611777
+      }
+    },
+    "280": {
+      "250": {
+        "xsec_pb": 0.046307,
+        "unc_pb": 0.0616893
+      }
+    },
+    "290": {
+      "250": {
+        "xsec_pb": 0.041554,
+        "unc_pb": 0.0623329
+      }
+    },
+    "302": {
+      "300": {
+        "xsec_pb": 0.030716,
+        "unc_pb": 0.0639065
+      }
+    },
+    "303": {
+      "300": {
+        "xsec_pb": 0.030403,
+        "unc_pb": 0.0639599
+      }
+    },
+    "305": {
+      "300": {
+        "xsec_pb": 0.029787,
+        "unc_pb": 0.0640663
+      }
+    },
+    "310": {
+      "250": {
+        "xsec_pb": 0.033523,
+        "unc_pb": 0.0634398
+      },
+      "300": {
+        "xsec_pb": 0.02831,
+        "unc_pb": 0.064331
+      }
+    },
+    "315": {
+      "300": {
+        "xsec_pb": 0.026839,
+        "unc_pb": 0.0646685
+      }
+    },
+    "320": {
+      "300": {
+        "xsec_pb": 0.025606,
+        "unc_pb": 0.0648541
+      }
+    },
+    "81.5": {
+      "80": {
+        "xsec_pb": 4.863215,
+        "unc_pb": 0.039399
+      }
+    },
+    "82": {
+      "80": {
+        "xsec_pb": 4.778707,
+        "unc_pb": 0.0401188
+      }
+    },
+    "83": {
+      "80": {
+        "xsec_pb": 4.607659,
+        "unc_pb": 0.0401496
+      }
+    },
+    "85": {
+      "80": {
+        "xsec_pb": 4.289711,
+        "unc_pb": 0.0404856
+      }
+    },
+    "90": {
+      "80": {
+        "xsec_pb": 3.611758,
+        "unc_pb": 0.0410894
+      }
+    },
+    "95": {
+      "80": {
+        "xsec_pb": 3.067054,
+        "unc_pb": 0.0417023
+      }
+    }
+  }
+}
