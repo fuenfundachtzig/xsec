@@ -4,7 +4,7 @@
 # Make overview (LaTeX / PDF) of available from cross sections available as JSON.
 # 
 # Run with:
-#   python make_overview.py && pdflatex -interaction=batchmode overview.tex 
+#   python make_overview.py && pdflatex -interaction=batchmode overview.tex
 #   
 # Produces 
 #   overview.pdf
