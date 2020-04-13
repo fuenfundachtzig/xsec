@@ -37,10 +37,13 @@ def StringToLatex(s):
 
 def LoadXsecJSONAsDF(jsondata):
   
+  if "parameters" in jsondata and len(jsondata["parameters"]) > 1:
+    raise ValueError("more than 1 mass parameter not yet implemented")
+  
   # convert to pandas.DataFrame
   df   = pd.DataFrame.from_dict(jsondata["data"], orient = "index")
   
-  # restore mass as column and sort 
+  # restore mass as column and sort
   df["mass_GeV"] = df.index.astype(int)
   df = df.sort_values("mass_GeV")
   df.reset_index(inplace = True, drop = True)
@@ -51,6 +54,38 @@ def LoadXsecJSONAsDF(jsondata):
       df['unc_%s%%' % v] = df['unc_%spb' % v] / df['xsec_pb'] * 100
   
   return df
+
+
+def ParticleToLatex(s):
+  "convert particle name to LaTeX"
+  m = {
+    "sq"   : r"\tilde q",
+    "sb"   : r"\tilde b",
+    "st"   : r"\tilde t",
+    "sv"   : r"\tilde\nu",
+    "sl"   : r"\tilde\ell",
+    "slL"  : r"\tilde\ell_L",
+    "slR"  : r"\tilde\ell_R",
+    "stau" : r"\tilde\tau",
+    "stauL": r"\tilde\tau_L",
+    "stauR": r"\tilde\tau_R",
+    "go"   : r"\tilde g",
+    "C"    : r"\tilde\chi^\pm",
+    "C1"   : r"\tilde\chi^\pm_1",
+    "C1p"  : r"\tilde\chi^+_1",
+    "C1m"  : r"\tilde\chi^-_1",
+    "C2"   : r"\tilde\chi^\pm_2",
+    "N"    : r"\tilde\chi^0",
+    "N1"   : r"\tilde\chi^0_1",
+    "N2"   : r"\tilde\chi^0_2",
+    "N3"   : r"\tilde\chi^0_3",
+    "N4"   : r"\tilde\chi^0_4",
+    "G"    : r"\tilde G",
+  }
+  if s in m.keys():
+    return m[s]
+  else:
+    return s
 
   
 ### main
@@ -96,10 +131,16 @@ with open(path_out, "w") as outf:
       print(r"(Failed to read data.)", file = outf)
       continue
     
+    # mass parameters
+    parameters = r"\dots"
+    if "parameters" in data:
+      parameters = ",".join([ParticleToLatex(s) for s in data["parameters"][0]])
+      
+    # table
     print(r"""\begin{longtable}{ccc}
       \toprule 
-      Mass [GeV] & cross section [pb] & uncertainty [\%] \\
-      \midrule\endhead""", file = outf)
+      Mass $m(%s)$ [GeV] & cross section [pb] & uncertainty [\%%] \\
+      \midrule\endhead""" % (parameters), file = outf)
     for idx, row in df.iterrows():
       uncs = "[unknown]"
       if row.get("unc_%") is not None:

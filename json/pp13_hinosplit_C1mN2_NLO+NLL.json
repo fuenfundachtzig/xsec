@@ -10,6 +10,7 @@
   "reference": "?",
   "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVhinosplit",
   "contact": "JoanaMachadoMiguens",
+  "parameters": [["N2"], ["N1"]],
   "data": {
     "100": {
       "60": {
