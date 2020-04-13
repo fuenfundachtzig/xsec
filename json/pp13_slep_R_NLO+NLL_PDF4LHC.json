@@ -1,170 +1,175 @@
 {
-  "initial state": "pp", 
-  "order": "NLO+NLL", 
-  "source": "numbers provided by Laura Jeanty", 
-  "contact": "mann, cern.ch", 
-  "tool": "Resummino 2.0.1", 
+  "initial state": "pp",
+  "order": "NLO+NLL",
+  "source": "numbers provided by Laura Jeanty",
+  "contact": "mann, cern.ch",
+  "tool": "Resummino 2.0.1",
   "process_latex": "$\\tilde \\ell_R\\tilde \\ell_R$",
-  "comment": "Slepton-pair cross sections (partners of right-handed leptons). Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties are computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.", 
+  "comment": "Slepton-pair cross sections (partners of right-handed leptons). Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties are computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.",
   "reference": "arXiv:1310.2621",
-  "Ecom [GeV]": "13000", 
-  "process_id": "pp13_slep_R_PDF4LHC", 
-  "PDF set": "PDF4LHC15", 
+  "Ecom [GeV]": "13000",
+  "process_id": "pp13_slep_R_PDF4LHC",
+  "PDF set": "PDF4LHC15",
   "data": {
     "260": {
-      "unc_down_pb": -6.6345e-05, 
-      "unc_up_pb": 6.9925e-05, 
+      "unc_down_pb": -6.6345e-05,
+      "unc_up_pb": 6.9925e-05,
       "xsec_pb": 0.0030821
-    }, 
+    },
     "140": {
-      "unc_down_pb": -0.00064838, 
-      "unc_up_pb": 0.00064078, 
+      "unc_down_pb": -0.00064838,
+      "unc_up_pb": 0.00064078,
       "xsec_pb": 0.030404
-    }, 
+    },
     "400": {
-      "unc_down_pb": -1.4046e-05, 
-      "unc_up_pb": 1.4648e-05, 
+      "unc_down_pb": -1.4046e-05,
+      "unc_up_pb": 1.4648e-05,
       "xsec_pb": 0.00052215
-    }, 
+    },
     "275": {
-      "unc_down_pb": -5.0022e-05, 
-      "unc_up_pb": 5.31e-05, 
+      "unc_down_pb": -5.0022e-05,
+      "unc_up_pb": 5.31e-05,
       "xsec_pb": 0.0024724
-    }, 
+    },
     "150": {
-      "unc_down_pb": -0.00050447, 
-      "unc_up_pb": 0.00049824, 
+      "unc_down_pb": -0.00050447,
+      "unc_up_pb": 0.00049824,
       "xsec_pb": 0.023811
-    }, 
+    },
     "280": {
-      "unc_down_pb": -4.9796e-05, 
-      "unc_up_pb": 5.2475e-05, 
+      "unc_down_pb": -4.9796e-05,
+      "unc_up_pb": 5.2475e-05,
       "xsec_pb": 0.0023019
-    }, 
+    },
     "900": {
-      "unc_down_pb": -4.3221e-07, 
-      "unc_up_pb": 4.2891e-07, 
+      "unc_down_pb": -4.3221e-07,
+      "unc_up_pb": 4.2891e-07,
       "xsec_pb": 8.3549e-06
-    }, 
+    },
     "160": {
-      "unc_down_pb": -0.00041754, 
-      "unc_up_pb": 0.00041242, 
+      "unc_down_pb": -0.00041754,
+      "unc_up_pb": 0.00041242,
       "xsec_pb": 0.018909
-    }, 
+    },
     "300": {
-      "unc_down_pb": -3.8719e-05, 
-      "unc_up_pb": 4.0891e-05, 
+      "unc_down_pb": -3.8719e-05,
+      "unc_up_pb": 4.0891e-05,
       "xsec_pb": 0.0017459
-    }, 
+    },
     "175": {
-      "unc_down_pb": -0.00030116, 
-      "unc_up_pb": 0.00029927, 
+      "unc_down_pb": -0.00030116,
+      "unc_up_pb": 0.00029927,
       "xsec_pb": 0.01368
-    }, 
+    },
     "50": {
-      "unc_down_pb": -0.054246, 
-      "unc_up_pb": 0.031682, 
+      "unc_down_pb": -0.054246,
+      "unc_up_pb": 0.031682,
       "xsec_pb": 1.3768
-    }, 
+    },
     "180": {
-      "unc_down_pb": -0.00027239, 
-      "unc_up_pb": 0.00027165, 
+      "unc_down_pb": -0.00027239,
+      "unc_up_pb": 0.00027165,
       "xsec_pb": 0.012344
-    }, 
+    },
     "440": {
-      "unc_down_pb": -9.4825e-06, 
-      "unc_up_pb": 9.8893e-06, 
+      "unc_down_pb": -9.4825e-06,
+      "unc_up_pb": 9.8893e-06,
       "xsec_pb": 0.00034218
-    }, 
+    },
     "700": {
-      "unc_down_pb": -1.338e-06, 
-      "unc_up_pb": 1.335e-06, 
+      "unc_down_pb": -1.338e-06,
+      "unc_up_pb": 1.335e-06,
       "xsec_pb": 3.5111e-05
-    }, 
+    },
     "320": {
-      "unc_down_pb": -2.9669e-05, 
-      "unc_up_pb": 3.1532e-05, 
+      "unc_down_pb": -2.9669e-05,
+      "unc_up_pb": 3.1532e-05,
       "xsec_pb": 0.0013424
-    }, 
+    },
     "800": {
-      "unc_down_pb": -7.5138e-07, 
-      "unc_up_pb": 7.4789e-07, 
+      "unc_down_pb": -7.5138e-07,
+      "unc_up_pb": 7.4789e-07,
       "xsec_pb": 1.6736e-05
-    }, 
+    },
     "200": {
-      "unc_down_pb": -0.0001813, 
-      "unc_up_pb": 0.00018407, 
+      "unc_down_pb": -0.0001813,
+      "unc_up_pb": 0.00018407,
       "xsec_pb": 0.008372
-    }, 
+    },
     "80": {
-      "unc_down_pb": -0.0049001, 
-      "unc_up_pb": 0.0041006, 
+      "unc_down_pb": -0.0049001,
+      "unc_up_pb": 0.0041006,
       "xsec_pb": 0.21037
-    }, 
+    },
     "340": {
-      "unc_down_pb": -2.3152e-05, 
-      "unc_up_pb": 2.4764e-05, 
+      "unc_down_pb": -2.3152e-05,
+      "unc_up_pb": 2.4764e-05,
       "xsec_pb": 0.0010445
-    }, 
+    },
     "600": {
-      "unc_down_pb": -2.8017e-06, 
-      "unc_up_pb": 2.8236e-06, 
+      "unc_down_pb": -2.8017e-06,
+      "unc_up_pb": 2.8236e-06,
       "xsec_pb": 7.829e-05
-    }, 
+    },
     "220": {
-      "unc_down_pb": -0.00012183, 
-      "unc_up_pb": 0.00012562, 
+      "unc_down_pb": -0.00012183,
+      "unc_up_pb": 0.00012562,
       "xsec_pb": 0.0058578
-    }, 
+    },
     "225": {
-      "unc_down_pb": -0.00011278, 
-      "unc_up_pb": 0.00011673, 
+      "unc_down_pb": -0.00011278,
+      "unc_up_pb": 0.00011673,
       "xsec_pb": 0.0053796
-    }, 
+    },
     "100": {
-      "unc_down_pb": -0.0020164, 
-      "unc_up_pb": 0.0018975, 
+      "unc_down_pb": -0.0020164,
+      "unc_up_pb": 0.0018975,
       "xsec_pb": 0.09779
-    }, 
+    },
     "360": {
-      "unc_down_pb": -1.9657e-05, 
-      "unc_up_pb": 2.0821e-05, 
+      "unc_down_pb": -1.9657e-05,
+      "unc_up_pb": 2.0821e-05,
       "xsec_pb": 0.00082149
-    }, 
+    },
     "240": {
-      "unc_down_pb": -8.8294e-05, 
-      "unc_up_pb": 9.2381e-05, 
+      "unc_down_pb": -8.8294e-05,
+      "unc_up_pb": 9.2381e-05,
       "xsec_pb": 0.0042038
-    }, 
+    },
     "1000": {
-      "unc_down_pb": -2.3865e-07, 
-      "unc_up_pb": 2.3584e-07, 
+      "unc_down_pb": -2.3865e-07,
+      "unc_up_pb": 2.3584e-07,
       "xsec_pb": 4.3258e-06
-    }, 
+    },
     "500": {
-      "unc_down_pb": -5.6243e-06, 
-      "unc_up_pb": 5.7614e-06, 
+      "unc_down_pb": -5.6243e-06,
+      "unc_up_pb": 5.7614e-06,
       "xsec_pb": 0.00019007
-    }, 
+    },
     "120": {
-      "unc_down_pb": -0.0010633, 
-      "unc_up_pb": 0.0010446, 
+      "unc_down_pb": -0.0010633,
+      "unc_up_pb": 0.0010446,
       "xsec_pb": 0.052141
-    }, 
+    },
     "250": {
-      "unc_down_pb": -7.5727e-05, 
-      "unc_up_pb": 7.978e-05, 
+      "unc_down_pb": -7.5727e-05,
+      "unc_up_pb": 7.978e-05,
       "xsec_pb": 0.0035906
-    }, 
+    },
     "380": {
-      "unc_down_pb": -1.6528e-05, 
-      "unc_up_pb": 1.7366e-05, 
+      "unc_down_pb": -1.6528e-05,
+      "unc_up_pb": 1.7366e-05,
       "xsec_pb": 0.00065219
-    }, 
+    },
     "125": {
-      "unc_down_pb": -0.00094425, 
-      "unc_up_pb": 0.00092997, 
+      "unc_down_pb": -0.00094425,
+      "unc_up_pb": 0.00092997,
       "xsec_pb": 0.045239
     }
-  }
+  },
+  "parameters": [
+    [
+      "slR"
+    ]
+  ]
 }

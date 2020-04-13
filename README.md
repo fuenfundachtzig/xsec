@@ -31,6 +31,7 @@ Physics process:
   * `xsec_pb`: cross section in pb
   * `unc_pb`: (symmetric) uncertainty on cross section in pb
   * `unc_up_pb`, `unc_down_pb`: asymmetric upward- and downward uncertainties on cross section in pb
+* `parameters`: list of list specifying the mass parameters used as keys for `data`, following the notation in this [`README`](https://gitlab.cern.ch/atlas-phys-susy-wg/feynmangraphs/)
 
 Additional metadata:
 * `tool`: name (and version) of the tool used for computing the cross sections 

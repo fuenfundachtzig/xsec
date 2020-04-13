@@ -1,170 +1,176 @@
 {
-  "initial state": "pp", 
-  "order": "NLO+NLL", 
+  "initial state": "pp",
+  "order": "NLO+NLL",
   "source": "numbers provided by Laura Jeanty",
-  "contact": "mann, cern.ch", 
-  "tool": "Resummino 2.0.1", 
+  "contact": "mann, cern.ch",
+  "tool": "Resummino 2.0.1",
   "process_latex": "$\\tilde \\ell_{L,R}\\tilde \\ell_{L,R}$",
-  "comment": "Slepton-pair cross sections (sum of partners of left- and right-handed leptons). Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties are computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.", 
+  "comment": "Slepton-pair cross sections (sum of partners of left- and right-handed leptons). Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties are computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.",
   "reference": "arXiv:1310.2621",
-  "Ecom [GeV]": "13000", 
-  "process_id": "pp13_slep_LR_PDF4LHC", 
-  "PDF set": "PDF4LHC15", 
+  "Ecom [GeV]": "13000",
+  "process_id": "pp13_slep_LR_PDF4LHC",
+  "PDF set": "PDF4LHC15",
   "data": {
     "260": {
-      "unc_down_pb": -0.0002254586, 
-      "unc_up_pb": 0.0002394843, 
+      "unc_down_pb": -0.0002254586,
+      "unc_up_pb": 0.0002394843,
       "xsec_pb": 0.0110795474
-    }, 
+    },
     "140": {
-      "unc_down_pb": -0.0019511028, 
-      "unc_up_pb": 0.0019175543, 
+      "unc_down_pb": -0.0019511028,
+      "unc_up_pb": 0.0019175543,
       "xsec_pb": 0.111556823
-    }, 
+    },
     "400": {
-      "unc_down_pb": -5.20998793477108e-05, 
-      "unc_up_pb": 5.42135556531393e-05, 
+      "unc_down_pb": -5.20998793477108e-05,
+      "unc_up_pb": 5.42135556531393e-05,
       "xsec_pb": 0.0018592039
-    }, 
+    },
     "275": {
-      "unc_down_pb": -0.0001796308, 
-      "unc_up_pb": 0.0001910715, 
+      "unc_down_pb": -0.0001796308,
+      "unc_up_pb": 0.0001910715,
       "xsec_pb": 0.0088748047
-    }, 
+    },
     "150": {
-      "unc_down_pb": -0.0014940199, 
-      "unc_up_pb": 0.0014613106, 
+      "unc_down_pb": -0.0014940199,
+      "unc_up_pb": 0.0014613106,
       "xsec_pb": 0.087116236
-    }, 
+    },
     "280": {
-      "unc_down_pb": -0.0001704015, 
-      "unc_up_pb": 0.000181218, 
+      "unc_down_pb": -0.0001704015,
+      "unc_up_pb": 0.000181218,
       "xsec_pb": 0.0082585482
-    }, 
+    },
     "900": {
-      "unc_down_pb": -1.35432647588537e-06, 
-      "unc_up_pb": 1.34091180529847e-06, 
+      "unc_down_pb": -1.35432647588537e-06,
+      "unc_up_pb": 1.34091180529847e-06,
       "xsec_pb": 2.9178605e-05
-    }, 
+    },
     "160": {
-      "unc_down_pb": -0.0012417422, 
-      "unc_up_pb": 0.001231688, 
+      "unc_down_pb": -0.0012417422,
+      "unc_up_pb": 0.001231688,
       "xsec_pb": 0.068961863
-    }, 
+    },
     "300": {
-      "unc_down_pb": -0.0001335745, 
-      "unc_up_pb": 0.0001420354, 
+      "unc_down_pb": -0.0001335745,
+      "unc_up_pb": 0.0001420354,
       "xsec_pb": 0.0062541714
-    }, 
+    },
     "175": {
-      "unc_down_pb": -0.000940319, 
-      "unc_up_pb": 0.0009329399, 
+      "unc_down_pb": -0.000940319,
+      "unc_up_pb": 0.0009329399,
       "xsec_pb": 0.049750576
-    }, 
+    },
     "50": {
-      "unc_down_pb": -0.2091724283, 
-      "unc_up_pb": 0.1187772101, 
+      "unc_down_pb": -0.2091724283,
+      "unc_up_pb": 0.1187772101,
       "xsec_pb": 5.3681557
-    }, 
+    },
     "180": {
-      "unc_down_pb": -0.0008475774, 
-      "unc_up_pb": 0.0008445575, 
+      "unc_down_pb": -0.0008475774,
+      "unc_up_pb": 0.0008445575,
       "xsec_pb": 0.044851644
-    }, 
+    },
     "440": {
-      "unc_down_pb": -3.69048440989719e-05, 
-      "unc_up_pb": 3.82422938668016e-05, 
+      "unc_down_pb": -3.69048440989719e-05,
+      "unc_up_pb": 3.82422938668016e-05,
       "xsec_pb": 0.0012159719
-    }, 
+    },
     "700": {
-      "unc_down_pb": -4.7324437254167e-06, 
-      "unc_up_pb": 4.71951833772946e-06, 
+      "unc_down_pb": -4.7324437254167e-06,
+      "unc_up_pb": 4.71951833772946e-06,
       "xsec_pb": 0.0001234716
-    }, 
+    },
     "320": {
-      "unc_down_pb": -0.0001052994, 
-      "unc_up_pb": 0.0001117648, 
+      "unc_down_pb": -0.0001052994,
+      "unc_up_pb": 0.0001117648,
       "xsec_pb": 0.0048020183
-    }, 
+    },
     "800": {
-      "unc_down_pb": -2.48105829681374e-06, 
-      "unc_up_pb": 2.46462289181289e-06, 
+      "unc_down_pb": -2.48105829681374e-06,
+      "unc_up_pb": 2.46462289181289e-06,
       "xsec_pb": 5.8632201e-05
-    }, 
+    },
     "200": {
-      "unc_down_pb": -0.0005981405, 
-      "unc_up_pb": 0.0006090442, 
+      "unc_down_pb": -0.0005981405,
+      "unc_up_pb": 0.0006090442,
       "xsec_pb": 0.0303143567
-    }, 
+    },
     "80": {
-      "unc_down_pb": -0.0170005175, 
-      "unc_up_pb": 0.013382428, 
+      "unc_down_pb": -0.0170005175,
+      "unc_up_pb": 0.013382428,
       "xsec_pb": 0.80138441
-    }, 
+    },
     "340": {
-      "unc_down_pb": -8.65253636063509e-05, 
-      "unc_up_pb": 9.16696246868589e-05, 
+      "unc_down_pb": -8.65253636063509e-05,
+      "unc_up_pb": 9.16696246868589e-05,
       "xsec_pb": 0.0037317948
-    }, 
+    },
     "600": {
-      "unc_down_pb": -9.906e-06, 
-      "unc_up_pb": 9.98329343298708e-06, 
+      "unc_down_pb": -9.906e-06,
+      "unc_up_pb": 9.98329343298708e-06,
       "xsec_pb": 0.0002763496
-    }, 
+    },
     "220": {
-      "unc_down_pb": -0.0004229749, 
-      "unc_up_pb": 0.0004386072, 
+      "unc_down_pb": -0.0004229749,
+      "unc_up_pb": 0.0004386072,
       "xsec_pb": 0.0211486997
-    }, 
+    },
     "225": {
-      "unc_down_pb": -0.0003894451, 
-      "unc_up_pb": 0.000405353, 
+      "unc_down_pb": -0.0003894451,
+      "unc_up_pb": 0.000405353,
       "xsec_pb": 0.0194106213
-    }, 
+    },
     "100": {
-      "unc_down_pb": -0.0067255979, 
-      "unc_up_pb": 0.0061855517, 
+      "unc_down_pb": -0.0067255979,
+      "unc_up_pb": 0.0061855517,
       "xsec_pb": 0.365721209
-    }, 
+    },
     "360": {
-      "unc_down_pb": -7.32042764011073e-05, 
-      "unc_up_pb": 7.71115420556102e-05, 
+      "unc_down_pb": -7.32042764011073e-05,
+      "unc_up_pb": 7.71115420556102e-05,
       "xsec_pb": 0.0029313505
-    }, 
+    },
     "240": {
-      "unc_down_pb": -0.0003048107, 
-      "unc_up_pb": 0.0003208059, 
+      "unc_down_pb": -0.0003048107,
+      "unc_up_pb": 0.0003208059,
       "xsec_pb": 0.0151424833
-    }, 
+    },
     "1000": {
-      "unc_down_pb": -7.77586918659639e-07, 
-      "unc_up_pb": 7.64590406980764e-07, 
+      "unc_down_pb": -7.77586918659639e-07,
+      "unc_up_pb": 7.64590406980764e-07,
       "xsec_pb": 1.50415955e-05
-    }, 
+    },
     "500": {
-      "unc_down_pb": -2.17075128277664e-05, 
-      "unc_up_pb": 2.21698525012732e-05, 
+      "unc_down_pb": -2.17075128277664e-05,
+      "unc_up_pb": 2.21698525012732e-05,
       "xsec_pb": 0.0006736329
-    }, 
+    },
     "120": {
-      "unc_down_pb": -0.0033685549, 
-      "unc_up_pb": 0.003289919, 
+      "unc_down_pb": -0.0033685549,
+      "unc_up_pb": 0.003289919,
       "xsec_pb": 0.192791222
-    }, 
+    },
     "250": {
-      "unc_down_pb": -0.0002547001, 
-      "unc_up_pb": 0.0002706709, 
+      "unc_down_pb": -0.0002547001,
+      "unc_up_pb": 0.0002706709,
       "xsec_pb": 0.0129202991
-    }, 
+    },
     "380": {
-      "unc_down_pb": -6.09801066689677e-05, 
-      "unc_up_pb": 6.39788399160886e-05, 
+      "unc_down_pb": -6.09801066689677e-05,
+      "unc_up_pb": 6.39788399160886e-05,
       "xsec_pb": 0.0023245546
-    }, 
+    },
     "125": {
-      "unc_down_pb": -0.0029149793, 
-      "unc_up_pb": 0.0028536721, 
+      "unc_down_pb": -0.0029149793,
+      "unc_up_pb": 0.0028536721,
       "xsec_pb": 0.166905281
     }
-  }
+  },
+  "parameters": [
+    [
+      "slL",
+      "slR"
+    ]
+  ]
 }

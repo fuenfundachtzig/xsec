@@ -1,119 +1,124 @@
 {
-  "initial state": "pp", 
-  "order": "NLO+NLL", 
-  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVslepslep", 
-  "contact": "mann, cern.ch", 
-  "tool": "Resummino, v1.X.X?", 
+  "initial state": "pp",
+  "order": "NLO+NLL",
+  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVslepslep",
+  "contact": "mann, cern.ch",
+  "tool": "Resummino, v1.X.X?",
   "process_latex": "$\\tilde \\ell_R\\tilde \\ell_R$",
-  "comment": "slepton-pair cross sections (partners of right-handed leptons)", 
+  "comment": "slepton-pair cross sections (partners of right-handed leptons)",
   "reference": "arXiv:1310.2621",
-  "Ecom [GeV]": "13000", 
-  "process_id": "pp13_slep_R", 
-  "PDF set": "CT10nlo", 
+  "Ecom [GeV]": "13000",
+  "process_id": "pp13_slep_R",
+  "PDF set": "CT10nlo",
   "data": {
     "260": {
-      "unc_pb": 0.00016671716888, 
+      "unc_pb": 0.00016671716888,
       "xsec_pb": 0.0030899976
-    }, 
+    },
     "520": {
-      "unc_pb": 1.21280628255e-05, 
+      "unc_pb": 1.21280628255e-05,
       "xsec_pb": 0.00015567963
-    }, 
+    },
     "140": {
-      "unc_pb": 0.0013199107895, 
+      "unc_pb": 0.0013199107895,
       "xsec_pb": 0.030746545
-    }, 
+    },
     "400": {
-      "unc_pb": 3.46460537825e-05, 
+      "unc_pb": 3.46460537825e-05,
       "xsec_pb": 0.00051837443
-    }, 
+    },
     "280": {
-      "unc_pb": 0.000128517812585, 
+      "unc_pb": 0.000128517812585,
       "xsec_pb": 0.0023040729
-    }, 
+    },
     "540": {
-      "unc_pb": 1.0345663551e-05, 
+      "unc_pb": 1.0345663551e-05,
       "xsec_pb": 0.00012973033
-    }, 
+    },
     "160": {
-      "unc_pb": 0.0008546804765, 
+      "unc_pb": 0.0008546804765,
       "xsec_pb": 0.01909221
-    }, 
+    },
     "420": {
-      "unc_pb": 2.8699354032e-05, 
+      "unc_pb": 2.8699354032e-05,
       "xsec_pb": 0.00041782872
-    }, 
+    },
     "300": {
-      "unc_pb": 0.00010055562585, 
+      "unc_pb": 0.00010055562585,
       "xsec_pb": 0.0017451887
-    }, 
+    },
     "560": {
-      "unc_pb": 8.8569980345e-06, 
+      "unc_pb": 8.8569980345e-06,
       "xsec_pb": 0.00010855399
-    }, 
+    },
     "180": {
-      "unc_pb": 0.0005800261462, 
+      "unc_pb": 0.0005800261462,
       "xsec_pb": 0.012445233
-    }, 
+    },
     "440": {
-      "unc_pb": 2.39124639845e-05, 
+      "unc_pb": 2.39124639845e-05,
       "xsec_pb": 0.00033903101
-    }, 
+    },
     "320": {
-      "unc_pb": 7.967298008e-05, 
+      "unc_pb": 7.967298008e-05,
       "xsec_pb": 0.0013399668
-    }, 
+    },
     "580": {
-      "unc_pb": 7.6076967284e-06, 
+      "unc_pb": 7.6076967284e-06,
       "xsec_pb": 9.1183246e-05
-    }, 
+    },
     "200": {
-      "unc_pb": 0.000408422109025, 
+      "unc_pb": 0.000408422109025,
       "xsec_pb": 0.0084297509
-    }, 
+    },
     "460": {
-      "unc_pb": 2.0033995491e-05, 
+      "unc_pb": 2.0033995491e-05,
       "xsec_pb": 0.00027681277
-    }, 
+    },
     "340": {
-      "unc_pb": 6.382763144e-05, 
+      "unc_pb": 6.382763144e-05,
       "xsec_pb": 0.0010412397
-    }, 
+    },
     "600": {
-      "unc_pb": 6.55534473475e-06, 
+      "unc_pb": 6.55534473475e-06,
       "xsec_pb": 7.6873587e-05
-    }, 
+    },
     "220": {
-      "unc_pb": 0.00029606927271, 
+      "unc_pb": 0.00029606927271,
       "xsec_pb": 0.0058879811
-    }, 
+    },
     "480": {
-      "unc_pb": 1.68715849165e-05, 
+      "unc_pb": 1.68715849165e-05,
       "xsec_pb": 0.00022732911
-    }, 
+    },
     "100": {
-      "unc_pb": 0.003896918292, 
+      "unc_pb": 0.003896918292,
       "xsec_pb": 0.099192799
-    }, 
+    },
     "360": {
-      "unc_pb": 5.16305446775e-05, 
+      "unc_pb": 5.16305446775e-05,
       "xsec_pb": 0.00081753775
-    }, 
+    },
     "240": {
-      "unc_pb": 0.00021993184625, 
+      "unc_pb": 0.00021993184625,
       "xsec_pb": 0.004219961
-    }, 
+    },
     "500": {
-      "unc_pb": 1.4274863e-05, 
+      "unc_pb": 1.4274863e-05,
       "xsec_pb": 0.00018767971
-    }, 
+    },
     "120": {
-      "unc_pb": 0.0021711076879, 
+      "unc_pb": 0.0021711076879,
       "xsec_pb": 0.052812794
-    }, 
+    },
     "380": {
-      "unc_pb": 4.2131602025e-05, 
+      "unc_pb": 4.2131602025e-05,
       "xsec_pb": 0.00064823195
     }
-  }
+  },
+  "parameters": [
+    [
+      "slR"
+    ]
+  ]
 }
