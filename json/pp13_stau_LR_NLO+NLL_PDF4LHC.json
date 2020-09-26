@@ -9,7 +9,7 @@
   "reference": "arXiv:1310.2621",
   "Ecom [GeV]": "13000",
   "process_id": "pp13_stau_LR_PDF4LHC",
-  "PDF set": "PDF4LHC15",
+  "PDF set": "PDF4LHC15_nlo_mc",
   "data": {
     "260": {
       "unc_down_pb": -0.0002254586,
@@ -75,6 +75,21 @@
       "unc_down_pb": -3.69048440989719e-05,
       "unc_up_pb": 3.82422938668016e-05,
       "xsec_pb": 0.0012159719
+    },
+    "480": {
+      "xsec_pb": 0.000815639,
+      "unc_up_pb": 2.66302e-05,
+      "unc_down_pb": -2.59377e-05
+    },
+    "520": {
+      "xsec_pb": 0.000558916,
+      "unc_up_pb": 1.87888e-05,
+      "unc_down_pb": -1.84541e-05
+    },
+    "560": {
+      "xsec_pb": 0.000389904,
+      "unc_up_pb": 1.38516e-05,
+      "unc_down_pb": -1.36865e-05
     },
     "700": {
       "unc_down_pb": -4.7324437254167e-06,
