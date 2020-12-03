@@ -24,14 +24,14 @@ Physics process:
 * `initial state`: 
   * pp = proton-proton collisions
 * `Ecom [GeV]`: center-of-mass energy in GeV
-* `process_id`: unique ID for process
+* `process_id`: unique ID for process (matches the first two fields of the JSON filename, i.e. e.g. `pp13_slep_L`)
 * `process_latex`: process (final state) in LaTeX code
 * `PDF set`: PDF set used in computation of cross sections
 * `data`: Cross-section data as nested dictionary (i.e. collection of key-value pairs). In our models, we usually consider production of pairs of the same (or degenerate) SUSY particles, i.e. we need only one mass parameter to define the production cross section. In these cases, we have key = mass in GeV, value = dictionary with following entries:
   * `xsec_pb`: cross section in pb
   * `unc_pb`: (symmetric) uncertainty on cross section in pb
   * `unc_up_pb`, `unc_down_pb`: asymmetric upward- and downward uncertainties on cross section in pb
-* `parameters`: list of lists specifying the mass parameters used as keys for `data`, following the notation in this [`README`](https://gitlab.cern.ch/atlas-phys-susy-wg/feynmangraphs/)
+* `parameters`: list of lists specifying the mass parameters used as keys for `data`, following the notation in the [`README`](https://gitlab.cern.ch/atlas-phys-susy-wg/feynmangraphs/) for the (private) git with Feynman diagrams
 
 Additional metadata:
 * `tool`: name (and version) of the tool used for computing the cross sections 
