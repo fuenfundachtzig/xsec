@@ -3,7 +3,7 @@
   "order": "NLO+NLL",
   "source": "numbers provided by Tina Potter",
   "contact": "mann, cern.ch",
-  "tool": "Resummino 3.0",
+  "tool": "Resummino 2.0.1",
   "process_latex": "$\tilde \ell_L^{+}\tilde \snu_{\ell}$",
   "comment": "Slepton+ Sneutrino cross sections. Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties include scale variations (mu_F and mu_R) at 0.5 and 2.0 of nominal values, and pdf uncertainties computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.",
   "reference": "arXiv:1310.2621",
@@ -12,174 +12,174 @@
   "PDF set": "PDF4LHC15",
   "data": {
     "50": {
-      "unc_down_pb": -0.7663366401,
-      "unc_up_pb": 1.1124449632,
-      "xsec_pb": 11.5204310000
+      "unc_down_pb": -0.3735569620,
+      "unc_up_pb": 0.2312736726,
+      "xsec_pb": 9.3914493000
     }    ,
     "80": {
-      "unc_down_pb": -0.0592693784,
-      "unc_up_pb": 0.1157895424,
-      "xsec_pb": 1.6401362000
+      "unc_down_pb": -0.0331100604,
+      "unc_up_pb": 0.0270657922,
+      "xsec_pb": 1.3663791000
     }    ,
     "100": {
-      "unc_down_pb": -0.0193718288,
-      "unc_up_pb": 0.0456596420,
-      "xsec_pb": 0.7278274000
+      "unc_down_pb": -0.0125367745,
+      "unc_up_pb": 0.0114463300,
+      "xsec_pb": 0.6122783500
     }    ,
     "120": {
-      "unc_down_pb": -0.0076188161,
-      "unc_up_pb": 0.0219481668,
-      "xsec_pb": 0.3784855200
+      "unc_down_pb": -0.0063749808,
+      "unc_up_pb": 0.0061853106,
+      "xsec_pb": 0.3210587500
     }    ,
     "125": {
-      "unc_down_pb": -0.0064243270,
-      "unc_up_pb": 0.0185614509,
-      "xsec_pb": 0.3272802600
+      "unc_down_pb": -0.0054123797,
+      "unc_up_pb": 0.0052788857,
+      "xsec_pb": 0.2779000900
     }    ,
     "140": {
-      "unc_down_pb": -0.0036562875,
-      "unc_up_pb": 0.0118221997,
-      "xsec_pb": 0.2180031300
+      "unc_down_pb": -0.0035385437,
+      "unc_up_pb": 0.0034630832,
+      "xsec_pb": 0.1860349100
     }    ,
     "150": {
-      "unc_down_pb": -0.0026184955,
-      "unc_up_pb": 0.0089899692,
-      "xsec_pb": 0.1700481700
+      "unc_down_pb": -0.0026544512,
+      "unc_up_pb": 0.0026011101,
+      "xsec_pb": 0.1455221900
     }    ,
     "160": {
-      "unc_down_pb": -0.0019194348,
-      "unc_up_pb": 0.0069565036,
-      "xsec_pb": 0.1346404000
+      "unc_down_pb": -0.0021369549,
+      "unc_up_pb": 0.0021118429,
+      "xsec_pb": 0.1155156500
     }    ,
     "175": {
-      "unc_down_pb": -0.0012492481,
-      "unc_up_pb": 0.0048766564,
-      "xsec_pb": 0.0971326950
+      "unc_down_pb": -0.0015693017,
+      "unc_up_pb": 0.0015727316,
+      "xsec_pb": 0.0836501840
     }    ,
     "180": {
-      "unc_down_pb": -0.0010924680,
-      "unc_up_pb": 0.0043572495,
-      "xsec_pb": 0.0876047680
+      "unc_down_pb": -0.0014162429,
+      "unc_up_pb": 0.0014264430,
+      "xsec_pb": 0.0755315790
     }    ,
     "200": {
-      "unc_down_pb": -0.0006666777,
-      "unc_up_pb": 0.0028503810,
-      "xsec_pb": 0.0593652030
+      "unc_down_pb": -0.0010971968,
+      "unc_up_pb": 0.0011222374,
+      "xsec_pb": 0.0513943310
     }    ,
     "220": {
-      "unc_down_pb": -0.0004202639,
-      "unc_up_pb": 0.0019355776,
-      "xsec_pb": 0.0415413180
+      "unc_down_pb": -0.0007830206,
+      "unc_up_pb": 0.0008161719,
+      "xsec_pb": 0.0361013910
     }    ,
     "225": {
-      "unc_down_pb": -0.0003809541,
-      "unc_up_pb": 0.0017659576,
-      "xsec_pb": 0.0381615610
+      "unc_down_pb": -0.0007167881,
+      "unc_up_pb": 0.0007516141,
+      "xsec_pb": 0.0331948740
     }    ,
     "240": {
-      "unc_down_pb": -0.0002767437,
-      "unc_up_pb": 0.0013527974,
-      "xsec_pb": 0.0298564320
+      "unc_down_pb": -0.0005752726,
+      "unc_up_pb": 0.0006064749,
+      "xsec_pb": 0.0260397450
     }    ,
     "250": {
-      "unc_down_pb": -0.0002219500,
-      "unc_up_pb": 0.0011406949,
-      "xsec_pb": 0.0255316890
+      "unc_down_pb": -0.0005120024,
+      "unc_up_pb": 0.0005378999,
+      "xsec_pb": 0.0223052890
     }    ,
     "260": {
-      "unc_down_pb": -0.0001807563,
-      "unc_up_pb": 0.0009682861,
-      "xsec_pb": 0.0219371060
+      "unc_down_pb": -0.0004582391,
+      "unc_up_pb": 0.0004813185,
+      "xsec_pb": 0.0191976560
     }    ,
     "275": {
-      "unc_down_pb": -0.0001315695,
-      "unc_up_pb": 0.0007643262,
-      "xsec_pb": 0.0176270640
+      "unc_down_pb": -0.0003868359,
+      "unc_up_pb": 0.0004037651,
+      "xsec_pb": 0.0154623920
     }    ,
     "280": {
-      "unc_down_pb": -0.0001181618,
-      "unc_up_pb": 0.0007080627,
-      "xsec_pb": 0.0164224480
+      "unc_down_pb": -0.0003672629,
+      "unc_up_pb": 0.0003837161,
+      "xsec_pb": 0.0144145460
     }    ,
     "300": {
-      "unc_down_pb": -0.0000758795,
-      "unc_up_pb": 0.0005271608,
-      "xsec_pb": 0.0124926770
+      "unc_down_pb": -0.0002885037,
+      "unc_up_pb": 0.0003011834,
+      "xsec_pb": 0.0109951280
     }    ,
     "320": {
-      "unc_down_pb": -0.0000480425,
-      "unc_up_pb": 0.0003986607,
-      "xsec_pb": 0.0096360055
+      "unc_down_pb": -0.0002369464,
+      "unc_up_pb": 0.0002473564,
+      "xsec_pb": 0.0085019322
     }    ,
     "340": {
-      "unc_down_pb": -0.0000305919,
-      "unc_up_pb": 0.0003056159,
-      "xsec_pb": 0.0075231263
+      "unc_down_pb": -0.0001928478,
+      "unc_up_pb": 0.0002011817,
+      "xsec_pb": 0.0066532755
     }    ,
     "360": {
-      "unc_down_pb": -0.0000211974,
-      "unc_up_pb": 0.0002372945,
-      "xsec_pb": 0.0059366064
+      "unc_down_pb": -0.0001599676,
+      "unc_up_pb": 0.0001665252,
+      "xsec_pb": 0.0052613687
     }    ,
     "380": {
-      "unc_down_pb": -0.0000180880,
-      "unc_up_pb": 0.0001864341,
-      "xsec_pb": 0.0047292154
+      "unc_down_pb": -0.0001306629,
+      "unc_up_pb": 0.0001360314,
+      "xsec_pb": 0.0042000054
     }    ,
     "400": {
-      "unc_down_pb": -0.0000184643,
-      "unc_up_pb": 0.0001479927,
-      "xsec_pb": 0.0037992952
+      "unc_down_pb": -0.0001076142,
+      "unc_up_pb": 0.0001120514,
+      "xsec_pb": 0.0033808131
     }    ,
     "440": {
-      "unc_down_pb": -0.0000205655,
-      "unc_up_pb": 0.0000965328,
-      "xsec_pb": 0.0025065300
+      "unc_down_pb": -0.0000779764,
+      "unc_up_pb": 0.0000807241,
+      "xsec_pb": 0.0022386954
     }    ,
     "500": {
-      "unc_down_pb": -0.0000205349,
-      "unc_up_pb": 0.0000548809,
-      "xsec_pb": 0.0014054282
+      "unc_down_pb": -0.0000505968,
+      "unc_up_pb": 0.0000517850,
+      "xsec_pb": 0.0012613579
     }    ,
     "600": {
-      "unc_down_pb": -0.0000161304,
-      "unc_up_pb": 0.0000258162,
-      "xsec_pb": 0.0005865245
+      "unc_down_pb": -0.0000261641,
+      "unc_up_pb": 0.0000264979,
+      "xsec_pb": 0.0005293893
     }    ,
     "700": {
-      "unc_down_pb": -0.0000111773,
-      "unc_up_pb": 0.0000141678,
-      "xsec_pb": 0.0002653659
+      "unc_down_pb": -0.0000149305,
+      "unc_up_pb": 0.0000150202,
+      "xsec_pb": 0.0002406878
     }    ,
     "800": {
-      "unc_down_pb": -0.0000075772,
-      "unc_up_pb": 0.0000085596,
-      "xsec_pb": 0.0001270906
+      "unc_down_pb": -0.0000083078,
+      "unc_up_pb": 0.0000083272,
+      "xsec_pb": 0.0001158218
     }    ,
     "900": {
-      "unc_down_pb": -0.0000050775,
-      "unc_up_pb": 0.0000054355,
-      "xsec_pb": 0.0000634182
+      "unc_down_pb": -0.0000052795,
+      "unc_up_pb": 0.0000052943,
+      "xsec_pb": 0.0000584193
     }    ,
     "1000": {
-      "unc_down_pb": -0.0000033979,
-      "unc_up_pb": 0.0000035299,
-      "xsec_pb": 0.0000326439
+      "unc_down_pb": -0.0000030268,
+      "unc_up_pb": 0.0000030504,
+      "xsec_pb": 0.0000300894
     }    ,
     "1100": {
-      "unc_down_pb": -0.0000022901,
-      "unc_up_pb": 0.0000023427,
-      "xsec_pb": 0.0000171908
+      "unc_down_pb": -0.0000019611,
+      "unc_up_pb": 0.0000019654,
+      "xsec_pb": 0.0000159270
     }    ,
     "1200": {
-      "unc_down_pb": -0.0000015527,
-      "unc_up_pb": 0.0000015745,
-      "xsec_pb": 0.0000092109
+      "unc_down_pb": -0.0000011867,
+      "unc_up_pb": 0.0000011887,
+      "xsec_pb": 0.0000085946
     }    ,
     "1300": {
-      "unc_down_pb": -0.0000010618,
-      "unc_up_pb": 0.0000010700,
-      "xsec_pb": 0.0000050022
+      "unc_down_pb": -0.0000007236,
+      "unc_up_pb": 0.0000007271,
+      "xsec_pb": 0.0000047063
     }
   },
   "parameters": [

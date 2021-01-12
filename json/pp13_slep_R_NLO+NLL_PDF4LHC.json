@@ -1,175 +1,189 @@
 {
   "initial state": "pp",
   "order": "NLO+NLL",
-  "source": "numbers provided by Laura Jeanty",
+  "source": "numbers provided by Tina Potter",
   "contact": "mann, cern.ch",
   "tool": "Resummino 2.0.1",
-  "process_latex": "$\\tilde \\ell_R\\tilde \\ell_R$",
-  "comment": "Slepton-pair cross sections (partners of right-handed leptons). Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties are computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.",
+  "process_latex": "$\tilde \ell_R\tilde \ell_R$",
+  "comment": "Slepton-pair cross sections (partners of right-handed leptons). Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties include scale variations (mu_F and mu_R) at 0.5 and 2.0 of nominal values, and pdf uncertainties computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.",
   "reference": "arXiv:1310.2621",
   "Ecom [GeV]": "13000",
   "process_id": "pp13_slep_R_PDF4LHC",
   "PDF set": "PDF4LHC15",
   "data": {
-    "260": {
-      "unc_down_pb": -6.6345e-05,
-      "unc_up_pb": 6.9925e-05,
-      "xsec_pb": 0.0030821
-    },
-    "140": {
-      "unc_down_pb": -0.00064838,
-      "unc_up_pb": 0.00064078,
-      "xsec_pb": 0.030404
-    },
-    "400": {
-      "unc_down_pb": -1.4046e-05,
-      "unc_up_pb": 1.4648e-05,
-      "xsec_pb": 0.00052215
-    },
-    "275": {
-      "unc_down_pb": -5.0022e-05,
-      "unc_up_pb": 5.31e-05,
-      "xsec_pb": 0.0024724
-    },
-    "150": {
-      "unc_down_pb": -0.00050447,
-      "unc_up_pb": 0.00049824,
-      "xsec_pb": 0.023811
-    },
-    "280": {
-      "unc_down_pb": -4.9796e-05,
-      "unc_up_pb": 5.2475e-05,
-      "xsec_pb": 0.0023019
-    },
-    "900": {
-      "unc_down_pb": -4.3221e-07,
-      "unc_up_pb": 4.2891e-07,
-      "xsec_pb": 8.3549e-06
-    },
-    "160": {
-      "unc_down_pb": -0.00041754,
-      "unc_up_pb": 0.00041242,
-      "xsec_pb": 0.018909
-    },
-    "300": {
-      "unc_down_pb": -3.8719e-05,
-      "unc_up_pb": 4.0891e-05,
-      "xsec_pb": 0.0017459
-    },
-    "175": {
-      "unc_down_pb": -0.00030116,
-      "unc_up_pb": 0.00029927,
-      "xsec_pb": 0.01368
-    },
     "50": {
-      "unc_down_pb": -0.054246,
-      "unc_up_pb": 0.031682,
-      "xsec_pb": 1.3768
-    },
-    "180": {
-      "unc_down_pb": -0.00027239,
-      "unc_up_pb": 0.00027165,
-      "xsec_pb": 0.012344
-    },
-    "440": {
-      "unc_down_pb": -9.4825e-06,
-      "unc_up_pb": 9.8893e-06,
-      "xsec_pb": 0.00034218
-    },
-    "700": {
-      "unc_down_pb": -1.338e-06,
-      "unc_up_pb": 1.335e-06,
-      "xsec_pb": 3.5111e-05
-    },
-    "320": {
-      "unc_down_pb": -2.9669e-05,
-      "unc_up_pb": 3.1532e-05,
-      "xsec_pb": 0.0013424
-    },
-    "800": {
-      "unc_down_pb": -7.5138e-07,
-      "unc_up_pb": 7.4789e-07,
-      "xsec_pb": 1.6736e-05
-    },
-    "200": {
-      "unc_down_pb": -0.0001813,
-      "unc_up_pb": 0.00018407,
-      "xsec_pb": 0.008372
-    },
+      "unc_down_pb": -0.0559766636,
+      "unc_up_pb": 0.0337797604,
+      "xsec_pb": 1.3770713000
+    }    ,
     "80": {
-      "unc_down_pb": -0.0049001,
-      "unc_up_pb": 0.0041006,
-      "xsec_pb": 0.21037
-    },
-    "340": {
-      "unc_down_pb": -2.3152e-05,
-      "unc_up_pb": 2.4764e-05,
-      "xsec_pb": 0.0010445
-    },
-    "600": {
-      "unc_down_pb": -2.8017e-06,
-      "unc_up_pb": 2.8236e-06,
-      "xsec_pb": 7.829e-05
-    },
-    "220": {
-      "unc_down_pb": -0.00012183,
-      "unc_up_pb": 0.00012562,
-      "xsec_pb": 0.0058578
-    },
-    "225": {
-      "unc_down_pb": -0.00011278,
-      "unc_up_pb": 0.00011673,
-      "xsec_pb": 0.0053796
-    },
+      "unc_down_pb": -0.0050554295,
+      "unc_up_pb": 0.0040850336,
+      "xsec_pb": 0.2104129800
+    }    ,
     "100": {
-      "unc_down_pb": -0.0020164,
-      "unc_up_pb": 0.0018975,
-      "xsec_pb": 0.09779
-    },
-    "360": {
-      "unc_down_pb": -1.9657e-05,
-      "unc_up_pb": 2.0821e-05,
-      "xsec_pb": 0.00082149
-    },
-    "240": {
-      "unc_down_pb": -8.8294e-05,
-      "unc_up_pb": 9.2381e-05,
-      "xsec_pb": 0.0042038
-    },
-    "1000": {
-      "unc_down_pb": -2.3865e-07,
-      "unc_up_pb": 2.3584e-07,
-      "xsec_pb": 4.3258e-06
-    },
-    "500": {
-      "unc_down_pb": -5.6243e-06,
-      "unc_up_pb": 5.7614e-06,
-      "xsec_pb": 0.00019007
-    },
+      "unc_down_pb": -0.0020890418,
+      "unc_up_pb": 0.0019014824,
+      "xsec_pb": 0.0978113150
+    }    ,
     "120": {
-      "unc_down_pb": -0.0010633,
-      "unc_up_pb": 0.0010446,
-      "xsec_pb": 0.052141
-    },
-    "250": {
-      "unc_down_pb": -7.5727e-05,
-      "unc_up_pb": 7.978e-05,
-      "xsec_pb": 0.0035906
-    },
-    "380": {
-      "unc_down_pb": -1.6528e-05,
-      "unc_up_pb": 1.7366e-05,
-      "xsec_pb": 0.00065219
-    },
+      "unc_down_pb": -0.0010592902,
+      "unc_up_pb": 0.0010252645,
+      "xsec_pb": 0.0521521400
+    }    ,
     "125": {
-      "unc_down_pb": -0.00094425,
-      "unc_up_pb": 0.00092997,
-      "xsec_pb": 0.045239
+      "unc_down_pb": -0.0009175487,
+      "unc_up_pb": 0.0008947559,
+      "xsec_pb": 0.0452484250
+    }    ,
+    "140": {
+      "unc_down_pb": -0.0006438034,
+      "unc_up_pb": 0.0006350719,
+      "xsec_pb": 0.0304104360
+    }    ,
+    "150": {
+      "unc_down_pb": -0.0005197314,
+      "unc_up_pb": 0.0005142342,
+      "xsec_pb": 0.0238158970
+    }    ,
+    "160": {
+      "unc_down_pb": -0.0004272374,
+      "unc_up_pb": 0.0004245387,
+      "xsec_pb": 0.0189132780
+    }    ,
+    "175": {
+      "unc_down_pb": -0.0003033618,
+      "unc_up_pb": 0.0003037475,
+      "xsec_pb": 0.0136824980
+    }    ,
+    "180": {
+      "unc_down_pb": -0.0002716763,
+      "unc_up_pb": 0.0002729346,
+      "xsec_pb": 0.0123470230
+    }    ,
+    "200": {
+      "unc_down_pb": -0.0001842898,
+      "unc_up_pb": 0.0001876880,
+      "xsec_pb": 0.0083741187
+    }    ,
+    "220": {
+      "unc_down_pb": -0.0001239061,
+      "unc_up_pb": 0.0001278820,
+      "xsec_pb": 0.0058590747
+    }    ,
+    "225": {
+      "unc_down_pb": -0.0001136573,
+      "unc_up_pb": 0.0001177217,
+      "xsec_pb": 0.0053807607
+    }    ,
+    "240": {
+      "unc_down_pb": -0.0000915195,
+      "unc_up_pb": 0.0000952916,
+      "xsec_pb": 0.0042047534
+    }    ,
+    "250": {
+      "unc_down_pb": -0.0000785674,
+      "unc_up_pb": 0.0000821899,
+      "xsec_pb": 0.0035914049
+    }    ,
+    "260": {
+      "unc_down_pb": -0.0000673815,
+      "unc_up_pb": 0.0000705001,
+      "xsec_pb": 0.0030828179
+    }    ,
+    "275": {
+      "unc_down_pb": -0.0000556834,
+      "unc_up_pb": 0.0000580405,
+      "xsec_pb": 0.0024729013
+    }    ,
+    "280": {
+      "unc_down_pb": -0.0000513183,
+      "unc_up_pb": 0.0000535278,
+      "xsec_pb": 0.0023024234
+    }    ,
+    "300": {
+      "unc_down_pb": -0.0000411726,
+      "unc_up_pb": 0.0000429913,
+      "xsec_pb": 0.0017462546
+    }    ,
+    "320": {
+      "unc_down_pb": -0.0000333377,
+      "unc_up_pb": 0.0000348787,
+      "xsec_pb": 0.0013426773
+    }    ,
+    "340": {
+      "unc_down_pb": -0.0000264835,
+      "unc_up_pb": 0.0000278560,
+      "xsec_pb": 0.0010447821
+    }    ,
+    "360": {
+      "unc_down_pb": -0.0000215480,
+      "unc_up_pb": 0.0000226137,
+      "xsec_pb": 0.0008216871
+    }    ,
+    "380": {
+      "unc_down_pb": -0.0000172370,
+      "unc_up_pb": 0.0000180624,
+      "xsec_pb": 0.0006523448
+    }    ,
+    "400": {
+      "unc_down_pb": -0.0000141601,
+      "unc_up_pb": 0.0000148027,
+      "xsec_pb": 0.0005222803
+    }    ,
+    "440": {
+      "unc_down_pb": -0.0000100296,
+      "unc_up_pb": 0.0000104743,
+      "xsec_pb": 0.0003422616
+    }    ,
+    "500": {
+      "unc_down_pb": -0.0000058049,
+      "unc_up_pb": 0.0000059887,
+      "xsec_pb": 0.0001901190
+    }    ,
+    "600": {
+      "unc_down_pb": -0.0000027775,
+      "unc_up_pb": 0.0000028299,
+      "xsec_pb": 0.0000783113
+    }    ,
+    "700": {
+      "unc_down_pb": -0.0000014343,
+      "unc_up_pb": 0.0000014493,
+      "xsec_pb": 0.0000351207
+    }    ,
+    "800": {
+      "unc_down_pb": -0.0000007523,
+      "unc_up_pb": 0.0000007601,
+      "xsec_pb": 0.0000167406
+    }    ,
+    "900": {
+      "unc_down_pb": -0.0000004283,
+      "unc_up_pb": 0.0000004323,
+      "xsec_pb": 0.0000083575
+    }    ,
+    "1000": {
+      "unc_down_pb": -0.0000002433,
+      "unc_up_pb": 0.0000002454,
+      "xsec_pb": 0.0000043273
+    }    ,
+    "1100": {
+      "unc_down_pb": -0.0000001551,
+      "unc_up_pb": 0.0000001557,
+      "xsec_pb": 0.0000023038
+    }    ,
+    "1200": {
+      "unc_down_pb": -0.0000001265,
+      "unc_up_pb": 0.0000001266,
+      "xsec_pb": 0.0000012569
+    }    ,
+    "1300": {
+      "unc_down_pb": -0.0000000725,
+      "unc_up_pb": 0.0000000731,
+      "xsec_pb": 0.0000006971
     }
   },
   "parameters": [
     [
-      "slR"
     ]
   ]
 }
