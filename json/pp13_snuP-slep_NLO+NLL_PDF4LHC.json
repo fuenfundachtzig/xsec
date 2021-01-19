@@ -4,7 +4,7 @@
   "source": "numbers provided by Tina Potter",
   "contact": "mann, cern.ch",
   "tool": "Resummino 2.0.1",
-  "process_latex": "$\tilde \ell_L^{+}\tilde \snu_{\ell}$",
+  "process_latex": "$\\tilde \\ell_L^{+}\\tilde \\nu_{\\ell}$",
   "comment": "Slepton+ Sneutrino cross sections. Calculated using Resummino at NLO+NLL and the PDF4LHC15 PDF set. Uncertainties include scale variations (mu_F and mu_R) at 0.5 and 2.0 of nominal values, and pdf uncertainties computed at 68 % C.L. using eq. 24 from https://arxiv.org/pdf/1510.03865.pdf.",
   "reference": "arXiv:1310.2621",
   "Ecom [GeV]": "13000",
