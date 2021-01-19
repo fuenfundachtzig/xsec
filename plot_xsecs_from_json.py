@@ -65,8 +65,11 @@ filenames = [
   #"pp13_winop_C1N2_NLO+NLL.json",
   "pp13_winopm_C1N2_NLO+NLL.json",
   ##
-  #"pp13_slep_L_NLO+NLL_PDF4LHC.json",
-  #"pp13_slep_R_NLO+NLL_PDF4LHC.json",
+  "pp13_slep_L_NLO+NLL_PDF4LHC.json",
+  "pp13_slep_R_NLO+NLL_PDF4LHC.json",
+  "pp13_snu-snu_NLO+NLL_PDF4LHC.json",
+  "pp13_snuM-slep_NLO+NLL_PDF4LHC.json",
+  "pp13_snuP-slep_NLO+NLL_PDF4LHC.json",
   #"pp13_stau_L_NLO+NLL_PDF4LHC.json",
   #"pp13_stau_R_NLO+NLL_PDF4LHC.json",
   "pp13_stau_LR_NLO+NLL_PDF4LHC.json",
@@ -75,7 +78,8 @@ filenames = [
 ]
 
 # load data and plot
-for filename in filenames:
+dfs = {}
+for idx, filename in enumerate(filenames):
   print(filename)
   data = json.load(open(os.path.join("json", filename)))
   df   = pd.DataFrame.from_dict(data["data"], orient = "index")
@@ -85,6 +89,8 @@ for filename in filenames:
   df.reset_index(inplace = True, drop = True)
   # plot
   PlotXsec(df, data["process_latex"])
+  # 
+  dfs[filename] = df
 
 # draw legend and style plot
 plt.xlabel("particle mass [GeV]")
