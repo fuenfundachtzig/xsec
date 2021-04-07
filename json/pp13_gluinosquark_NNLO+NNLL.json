@@ -5,7 +5,7 @@
   "contact": "mann, cern.ch",
   "tool": "NNLL-fast",
   "process_latex": "$\\tilde g\\tilde q$",
-  "comment": "Gluino-squark production cross sections with the rest of the spectrum decoupled. The cross-section values reported here assume an 8-fold squark degeneracy (i. e. ~u, ~d, ~c, ~s mass degenerate). They have been computed for equal gluino and squark masses. Provided by authors of NNLL-fast (arXiv:1607.07741), including the combined scale and PDF+AlphaS uncertainties. The PDF set used for the calculations is PDF4LHC15_nnlo_mc_pdfas. The final state does not include contributions from bottom squarks.",
+  "comment": "Gluino-squark production cross sections with the rest of the spectrum decoupled. The cross-section values reported here assume an 8-fold squark degeneracy (i. e. ~u, ~d, ~c, ~s mass degenerate). They have been computed for equal gluino and squark masses. Provided by the authors of NNLL-fast (arXiv:1607.07741), including the combined scale and PDF+AlphaS uncertainties. The PDF set used for the calculations is PDF4LHC15_nnlo_mc_pdfas. The final state does not include contributions from bottom squarks.",
   "reference": "?",
   "Ecom [GeV]": "13000",
   "process_id": "pp13_glsq",

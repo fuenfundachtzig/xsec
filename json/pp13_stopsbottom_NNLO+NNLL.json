@@ -1,15 +1,15 @@
 {
   "initial state": "pp",
-  "order": "NNLO+NNLL",
+  "order": "NNLOapprox+NNLL",
   "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVstopsbottom",
   "contact": "mann, cern.ch",
-  "tool": "?",
+  "tool": "NNLL-fast",
   "process_latex": "$\\tilde t\\tilde t^*$, $\\tilde b\\tilde b^*$",
-  "comment": "stop and sbottom production cross sections with squarks and gluinos decoupled",
-  "reference": "?",
+  "comment": "stop and sbottom production cross sections with squarks and gluinos decoupled, decoupled regime, provided by Anna Kulesza and Christoph Borschensky, obtained using NNLL-fast, general set-up of calculations as described in arXiv:1607.07741, uncertainties on theory predictions symmetrized",
+  "reference": "arXiv:1607.07741",
   "Ecom [GeV]": "13000",
   "process_id": "pp13_stsb",
-  "PDF set": "?",
+  "PDF set": "NNLO PDF4LHC15",
   "data": {
     "2050": {
       "unc_pb": 2.86e-06,
