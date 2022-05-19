@@ -1,448 +1,331 @@
 {
-  "initial state": "pp",
-  "Ecom [GeV]": "13000",
-  "process_id": "pp13_glsq",
-  "process_latex": "$\\tilde g\\tilde q$",
-  "PDF set": "NNLO PDF4LHC15",
-  "order": "NNLOapprox+NNLL",
-  "comment": "Gluino-squark production cross sections for the gluino-squark model with the rest of the spectrum decoupled. The cross-section values reported here assume an 8-fold squark degeneracy (i. e. ~u, ~d, ~c, ~s mass degenerate). Provided by the authors of NNLL-fast (arXiv:1607.07741), including the combined scale and PDF+AlphaS uncertainties. The PDF set used for the calculations is PDF4LHC15. Contributions from bottom squarks not included.",
-  "tool": "NNLL-fast",
-  "reference": "?",
-  "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVglusqgluglusqsqsqsqbar",
-  "contact": "rurikova",
-  "parameters": [["gl"], ["sq"]],
-  "data": {
-    "1250": {
-      "3000": {
-        "xsec_pb": 4.490e-03,
-        "unc_pb": 6.196e-04
-      }
-    },
-    "1250": {
-      "4000": {
-        "xsec_pb": 4.960e-04,
-        "unc_pb": 1.052e-04
-      }
-    },
-    "1250": {
-      "5000": {
-        "xsec_pb": 5.130e-05,
-        "unc_pb": 1.616e-05
-      }
-    },
-    "1250": {
-      "6000": {
-        "xsec_pb": 4.660e-06,
-        "unc_pb": 1.976e-06
-      }
-    },
-    "1250": {
-      "8000": {
-        "xsec_pb": 1.790e-08,
-        "unc_pb": 1.339e-08
-      }
-    },
-    "1500": {
-      "2500": {
-        "xsec_pb": 6.420e-03,
-        "unc_pb": 7.961e-04
-      }
-    },
-    "1500": {
-      "3000": {
-        "xsec_pb": 2.180e-03,
-        "unc_pb": 3.379e-04
-      }
-    },
-    "1500": {
-      "4000": {
-        "xsec_pb": 2.420e-04,
-        "unc_pb": 5.711e-05
-      }
-    },
-    "1750": {
-      "1500": {
-        "xsec_pb": 2.540e-02,
-        "unc_pb": 2.273e-03
-      }
-    },
-    "1750": {
-      "2000": {
-        "xsec_pb": 8.820e-03,
-        "unc_pb": 9.967e-04
-      }
-    },
-    "1750": {
-      "2500": {
-        "xsec_pb": 3.110e-03,
-        "unc_pb": 4.354e-04
-      }
-    },
-    "1750": {
-      "3000": {
-        "xsec_pb": 1.070e-03,
-        "unc_pb": 1.851e-04
-      }
-    },
-    "1750": {
-      "3500": {
-        "xsec_pb": 3.620e-04,
-        "unc_pb": 7.711e-05
-      }
-    },
-    "1750": {
-      "4000": {
-        "xsec_pb": 1.200e-04,
-        "unc_pb": 3.132e-05
-      }
-    },
-    "1750": {
-      "5000": {
-        "xsec_pb": 1.200e-05,
-        "unc_pb": 4.404e-06
-      }
-    },
-    "1750": {
-      "6000": {
-        "xsec_pb": 1.000e-06,
-        "unc_pb": 4.940e-07
-      }
-    },
-    "1750": {
-      "8000": {
-        "xsec_pb": 2.670e-09,
-        "unc_pb": 2.296e-09
-      }
-    },
-    "2250": {
-      "1500": {
-        "xsec_pb": 6.510e-03,
-        "unc_pb": 7.552e-04
-      }
-    },
-    "2250": {
-      "2000": {
-        "xsec_pb": 2.090e-03,
-        "unc_pb": 3.010e-04
-      }
-    },
-    "2250": {
-      "2500": {
-        "xsec_pb": 7.500e-04,
-        "unc_pb": 1.335e-04
-      }
-    },
-    "2250": {
-      "3000": {
-        "xsec_pb": 2.660e-04,
-        "unc_pb": 5.746e-05
-      }
-    },
-    "2250": {
-      "3500": {
-        "xsec_pb": 9.050e-05,
-        "unc_pb": 2.380e-05
-      }
-    },
-    "2250": {
-      "4000": {
-        "xsec_pb": 2.960e-05,
-        "unc_pb": 9.383e-06
-      }
-    },
-    "2250": {
-      "5000": {
-        "xsec_pb": 2.800e-06,
-        "unc_pb": 1.193e-06
-      }
-    },
-    "2250": {
-      "6000": {
-        "xsec_pb": 2.110e-07,
-        "unc_pb": 1.203e-07
-      }
-    },
-    "2250": {
-      "8000": {
-        "xsec_pb": 3.450e-10,
-        "unc_pb": 3.419e-10
-      }
-    },
-    "2750": {
-      "1000": {
-        "xsec_pb": 5.700e-03,
-        "unc_pb": 6.726e-04
-      }
-    },
-    "2750": {
-      "1500": {
-        "xsec_pb": 1.770e-03,
-        "unc_pb": 2.602e-04
-      }
-    },
-    "2750": {
-      "2000": {
-        "xsec_pb": 5.720e-04,
-        "unc_pb": 1.035e-04
-      }
-    },
-    "2750": {
-      "2500": {
-        "xsec_pb": 1.880e-04,
-        "unc_pb": 4.174e-05
-      }
-    },
-    "2750": {
-      "3000": {
-        "xsec_pb": 6.620e-05,
-        "unc_pb": 1.787e-05
-      }
-    },
-    "2750": {
-      "3500": {
-        "xsec_pb": 2.260e-05,
-        "unc_pb": 7.232e-06
-      }
-    },
-    "2750": {
-      "4000": {
-        "xsec_pb": 7.290e-06,
-        "unc_pb": 2.683e-06
-      }
-    },
-    "2750": {
-      "5000": {
-        "xsec_pb": 6.360e-07,
-        "unc_pb": 3.161e-07
-      }
-    },
-    "2750": {
-      "6000": {
-        "xsec_pb": 4.200e-08,
-        "unc_pb": 2.747e-08
-      }
-    },
-    "2750": {
-      "8000": {
-        "xsec_pb": 3.500e-11,
-        "unc_pb": 4.025e-11
-      }
-    },
-    "3250": {
-      "1000": {
-        "xsec_pb": 1.580e-03,
-        "unc_pb": 2.370e-04
-      }
-    },
-    "3250": {
-      "1500": {
-        "xsec_pb": 4.980e-04,
-        "unc_pb": 9.163e-05
-      }
-    },
-    "3250": {
-      "2000": {
-        "xsec_pb": 1.600e-04,
-        "unc_pb": 3.600e-05
-      }
-    },
-    "3250": {
-      "2500": {
-        "xsec_pb": 5.170e-05,
-        "unc_pb": 1.411e-05
-      }
-    },
-    "3250": {
-      "3000": {
-        "xsec_pb": 1.660e-05,
-        "unc_pb": 5.428e-06
-      }
-    },
-    "3250": {
-      "3500": {
-        "xsec_pb": 5.510e-06,
-        "unc_pb": 2.072e-06
-      }
-    },
-    "3250": {
-      "4000": {
-        "xsec_pb": 1.750e-06,
-        "unc_pb": 7.508e-07
-      }
-    },
-    "3250": {
-      "5000": {
-        "xsec_pb": 1.380e-07,
-        "unc_pb": 7.894e-08
-      }
-    },
-    "3250": {
-      "6000": {
-        "xsec_pb": 7.670e-09,
-        "unc_pb": 5.760e-09
-      }
-    },
-    "4250": {
-      "1000": {
-        "xsec_pb": 1.290e-04,
-        "unc_pb": 3.006e-05
-      }
-    },
-    "4250": {
-      "1500": {
-        "xsec_pb": 3.990e-05,
-        "unc_pb": 1.121e-05
-      }
-    },
-    "4250": {
-      "2000": {
-        "xsec_pb": 1.250e-05,
-        "unc_pb": 4.150e-06
-      }
-    },
-    "4250": {
-      "2500": {
-        "xsec_pb": 3.830e-06,
-        "unc_pb": 1.455e-06
-      }
-    },
-    "4250": {
-      "3000": {
-        "xsec_pb": 1.130e-06,
-        "unc_pb": 4.961e-07
-      }
-    },
-    "4250": {
-      "3500": {
-        "xsec_pb": 3.200e-07,
-        "unc_pb": 1.626e-07
-      }
-    },
-    "4250": {
-      "4000": {
-        "xsec_pb": 8.610e-08,
-        "unc_pb": 5.011e-08
-      }
-    },
-    "5250": {
-      "1000": {
-        "xsec_pb": 1.040e-05,
-        "unc_pb": 3.526e-06
-      }
-    },
-    "5250": {
-      "1500": {
-        "xsec_pb": 3.040e-06,
-        "unc_pb": 1.176e-06
-      }
-    },
-    "5250": {
-      "2000": {
-        "xsec_pb": 8.840e-07,
-        "unc_pb": 3.934e-07
-      }
-    },
-    "5250": {
-      "2500": {
-        "xsec_pb": 2.470e-07,
-        "unc_pb": 1.267e-07
-      }
-    },
-    "5250": {
-      "3000": {
-        "xsec_pb": 6.540e-08,
-        "unc_pb": 3.832e-08
-      }
-    },
-    "5250": {
-      "3500": {
-        "xsec_pb": 1.600e-08,
-        "unc_pb": 1.069e-08
-      }
-    },
-    "5250": {
-      "4000": {
-        "xsec_pb": 3.540e-09,
-        "unc_pb": 2.701e-09
-      }
-    },
-    "6250": {
-      "1000": {
-        "xsec_pb": 7.510e-07,
-        "unc_pb": 3.417e-07
-      }
-    },
-    "6250": {
-      "1500": {
-        "xsec_pb": 2.000e-07,
-        "unc_pb": 1.044e-07
-      }
-    },
-    "6250": {
-      "2000": {
-        "xsec_pb": 5.170e-08,
-        "unc_pb": 3.061e-08
-      }
-    },
-    "6250": {
-      "2500": {
-        "xsec_pb": 1.250e-08,
-        "unc_pb": 8.413e-09
-      }
-    },
-    "6250": {
-      "3000": {
-        "xsec_pb": 2.760e-09,
-        "unc_pb": 2.120e-09
-      }
-    },
-    "6250": {
-      "3500": {
-        "xsec_pb": 5.310e-10,
-        "unc_pb": 4.662e-10
-      }
-    },
-    "6250": {
-      "4000": {
-        "xsec_pb": 8.500e-11,
-        "unc_pb": 8.585e-11
-      }
-    },
-    "8250": {
-      "1000": {
-        "xsec_pb": 1.870e-09,
-        "unc_pb": 1.472e-09
-      }
-    },
-    "8250": {
-      "1500": {
-        "xsec_pb": 3.380e-10,
-        "unc_pb": 3.018e-10
-      }
-    },
-    "8250": {
-      "2000": {
-        "xsec_pb": 5.260e-11,
-        "unc_pb": 5.365e-11
-      }
-    },
-    "8250": {
-      "2500": {
-        "xsec_pb": 6.370e-12,
-        "unc_pb": 7.453e-12
-      }
-    },
-    "8250": {
-      "3000": {
-        "xsec_pb": 5.150e-13,
-        "unc_pb": 6.953e-13
-      }
-    },
-    "8250": {
-      "3500": {
-        "xsec_pb": 2.110e-14,
-        "unc_pb": 3.292e-14
-      }
+    "initial state": "pp",
+    "Ecom [GeV]": "13000",
+    "process_id": "pp13_glsq",
+    "process_latex": "$\\tilde g\\tilde q$",
+    "PDF set": "NNLO PDF4LHC15",
+    "order": "NNLOapprox+NNLL",
+    "comment": "Gluino-squark production cross sections for the gluino-squark model with the rest of the spectrum decoupled. The cross-section values reported here assume an 8-fold squark degeneracy (i. e. ~u, ~d, ~c, ~s mass degenerate). Provided by the authors of NNLL-fast (arXiv:1607.07741), including the combined scale and PDF+AlphaS uncertainties. The PDF set used for the calculations is PDF4LHC15. Contributions from bottom squarks not included.",
+    "tool": "NNLL-fast",
+    "reference": "?",
+    "source": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections13TeVglusqgluglusqsqsqsqbar",
+    "contact": "rurikova",
+    "parameters": [
+        [
+            "gl"
+        ],
+        [
+            "sq"
+        ]
+    ],
+    "data": {
+        "1250": {
+            "3000": {
+                "xsec_pb": 0.00449,
+                "unc_pb": 0.0006196
+            },
+            "4000": {
+                "xsec_pb": 0.000496,
+                "unc_pb": 0.0001052
+            },
+            "5000": {
+                "xsec_pb": 5.13e-05,
+                "unc_pb": 1.616e-05
+            },
+            "6000": {
+                "xsec_pb": 4.66e-06,
+                "unc_pb": 1.976e-06
+            },
+            "8000": {
+                "xsec_pb": 1.79e-08,
+                "unc_pb": 1.339e-08
+            }
+        },
+        "1500": {
+            "2500": {
+                "xsec_pb": 0.00642,
+                "unc_pb": 0.0007961
+            },
+            "3000": {
+                "xsec_pb": 0.00218,
+                "unc_pb": 0.0003379
+            },
+            "4000": {
+                "xsec_pb": 0.000242,
+                "unc_pb": 5.711e-05
+            }
+        },
+        "1750": {
+            "1500": {
+                "xsec_pb": 0.0254,
+                "unc_pb": 0.002273
+            },
+            "2000": {
+                "xsec_pb": 0.00882,
+                "unc_pb": 0.0009967
+            },
+            "2500": {
+                "xsec_pb": 0.00311,
+                "unc_pb": 0.0004354
+            },
+            "3000": {
+                "xsec_pb": 0.00107,
+                "unc_pb": 0.0001851
+            },
+            "3500": {
+                "xsec_pb": 0.000362,
+                "unc_pb": 7.711e-05
+            },
+            "4000": {
+                "xsec_pb": 0.00012,
+                "unc_pb": 3.132e-05
+            },
+            "5000": {
+                "xsec_pb": 1.2e-05,
+                "unc_pb": 4.404e-06
+            },
+            "6000": {
+                "xsec_pb": 1e-06,
+                "unc_pb": 4.94e-07
+            },
+            "8000": {
+                "xsec_pb": 2.67e-09,
+                "unc_pb": 2.296e-09
+            }
+        },
+        "2250": {
+            "1500": {
+                "xsec_pb": 0.00651,
+                "unc_pb": 0.0007552
+            },
+            "2000": {
+                "xsec_pb": 0.00209,
+                "unc_pb": 0.000301
+            },
+            "2500": {
+                "xsec_pb": 0.00075,
+                "unc_pb": 0.0001335
+            },
+            "3000": {
+                "xsec_pb": 0.000266,
+                "unc_pb": 5.746e-05
+            },
+            "3500": {
+                "xsec_pb": 9.05e-05,
+                "unc_pb": 2.38e-05
+            },
+            "4000": {
+                "xsec_pb": 2.96e-05,
+                "unc_pb": 9.383e-06
+            },
+            "5000": {
+                "xsec_pb": 2.8e-06,
+                "unc_pb": 1.193e-06
+            },
+            "6000": {
+                "xsec_pb": 2.11e-07,
+                "unc_pb": 1.203e-07
+            },
+            "8000": {
+                "xsec_pb": 3.45e-10,
+                "unc_pb": 3.419e-10
+            }
+        },
+        "2750": {
+            "1000": {
+                "xsec_pb": 0.0057,
+                "unc_pb": 0.0006726
+            },
+            "1500": {
+                "xsec_pb": 0.00177,
+                "unc_pb": 0.0002602
+            },
+            "2000": {
+                "xsec_pb": 0.000572,
+                "unc_pb": 0.0001035
+            },
+            "2500": {
+                "xsec_pb": 0.000188,
+                "unc_pb": 4.174e-05
+            },
+            "3000": {
+                "xsec_pb": 6.62e-05,
+                "unc_pb": 1.787e-05
+            },
+            "3500": {
+                "xsec_pb": 2.26e-05,
+                "unc_pb": 7.232e-06
+            },
+            "4000": {
+                "xsec_pb": 7.29e-06,
+                "unc_pb": 2.683e-06
+            },
+            "5000": {
+                "xsec_pb": 6.36e-07,
+                "unc_pb": 3.161e-07
+            },
+            "6000": {
+                "xsec_pb": 4.2e-08,
+                "unc_pb": 2.747e-08
+            },
+            "8000": {
+                "xsec_pb": 3.5e-11,
+                "unc_pb": 4.025e-11
+            }
+        },
+        "3250": {
+            "1000": {
+                "xsec_pb": 0.00158,
+                "unc_pb": 0.000237
+            },
+            "1500": {
+                "xsec_pb": 0.000498,
+                "unc_pb": 9.163e-05
+            },
+            "2000": {
+                "xsec_pb": 0.00016,
+                "unc_pb": 3.6e-05
+            },
+            "2500": {
+                "xsec_pb": 5.17e-05,
+                "unc_pb": 1.411e-05
+            },
+            "3000": {
+                "xsec_pb": 1.66e-05,
+                "unc_pb": 5.428e-06
+            },
+            "3500": {
+                "xsec_pb": 5.51e-06,
+                "unc_pb": 2.072e-06
+            },
+            "4000": {
+                "xsec_pb": 1.75e-06,
+                "unc_pb": 7.508e-07
+            },
+            "5000": {
+                "xsec_pb": 1.38e-07,
+                "unc_pb": 7.894e-08
+            },
+            "6000": {
+                "xsec_pb": 7.67e-09,
+                "unc_pb": 5.76e-09
+            }
+        },
+        "4250": {
+            "1000": {
+                "xsec_pb": 0.000129,
+                "unc_pb": 3.006e-05
+            },
+            "1500": {
+                "xsec_pb": 3.99e-05,
+                "unc_pb": 1.121e-05
+            },
+            "2000": {
+                "xsec_pb": 1.25e-05,
+                "unc_pb": 4.15e-06
+            },
+            "2500": {
+                "xsec_pb": 3.83e-06,
+                "unc_pb": 1.455e-06
+            },
+            "3000": {
+                "xsec_pb": 1.13e-06,
+                "unc_pb": 4.961e-07
+            },
+            "3500": {
+                "xsec_pb": 3.2e-07,
+                "unc_pb": 1.626e-07
+            },
+            "4000": {
+                "xsec_pb": 8.61e-08,
+                "unc_pb": 5.011e-08
+            }
+        },
+        "5250": {
+            "1000": {
+                "xsec_pb": 1.04e-05,
+                "unc_pb": 3.526e-06
+            },
+            "1500": {
+                "xsec_pb": 3.04e-06,
+                "unc_pb": 1.176e-06
+            },
+            "2000": {
+                "xsec_pb": 8.84e-07,
+                "unc_pb": 3.934e-07
+            },
+            "2500": {
+                "xsec_pb": 2.47e-07,
+                "unc_pb": 1.267e-07
+            },
+            "3000": {
+                "xsec_pb": 6.54e-08,
+                "unc_pb": 3.832e-08
+            },
+            "3500": {
+                "xsec_pb": 1.6e-08,
+                "unc_pb": 1.069e-08
+            },
+            "4000": {
+                "xsec_pb": 3.54e-09,
+                "unc_pb": 2.701e-09
+            }
+        },
+        "6250": {
+            "1000": {
+                "xsec_pb": 7.51e-07,
+                "unc_pb": 3.417e-07
+            },
+            "1500": {
+                "xsec_pb": 2e-07,
+                "unc_pb": 1.044e-07
+            },
+            "2000": {
+                "xsec_pb": 5.17e-08,
+                "unc_pb": 3.061e-08
+            },
+            "2500": {
+                "xsec_pb": 1.25e-08,
+                "unc_pb": 8.413e-09
+            },
+            "3000": {
+                "xsec_pb": 2.76e-09,
+                "unc_pb": 2.12e-09
+            },
+            "3500": {
+                "xsec_pb": 5.31e-10,
+                "unc_pb": 4.662e-10
+            },
+            "4000": {
+                "xsec_pb": 8.5e-11,
+                "unc_pb": 8.585e-11
+            }
+        },
+        "8250": {
+            "1000": {
+                "xsec_pb": 1.87e-09,
+                "unc_pb": 1.472e-09
+            },
+            "1500": {
+                "xsec_pb": 3.38e-10,
+                "unc_pb": 3.018e-10
+            },
+            "2000": {
+                "xsec_pb": 5.26e-11,
+                "unc_pb": 5.365e-11
+            },
+            "2500": {
+                "xsec_pb": 6.37e-12,
+                "unc_pb": 7.453e-12
+            },
+            "3000": {
+                "xsec_pb": 5.15e-13,
+                "unc_pb": 6.953e-13
+            },
+            "3500": {
+                "xsec_pb": 2.11e-14,
+                "unc_pb": 3.292e-14
+            }
+        }
     }
-  }
 }
