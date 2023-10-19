@@ -1,0 +1,110 @@
+{
+    "initial state": "pp",
+    "order": "NNLOapprox+NNLL",
+    "source": "hepi-0.2.6.4+dirty",
+    "contact": "Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>",
+    "tool": "Resummino-resummino 3.1.1-dev",
+    "process_latex": "$\\tilde{e}_{R}^{-}\\tilde{e}_{R}^{+}$",
+    "comment": "0.0.0",
+    "reference": "?",
+    "Ecom [GeV]": "13600",
+    "process_id": "pp_13600_2000011_-2000011",
+    "PDF set": "PDF4LHC21_40",
+    "parameters": [
+        [
+            "mass_1000011_2000011_1000012_1000013_2000013_1000014_1000015_2000015_1000016"
+        ]
+    ],
+    "data": {
+        "100": {
+            "xsec_pb": 0.10686864,
+            "unc_up_pb": 0.0036574947395336347,
+            "unc_down_pb": -0.004083443687491745,
+            "unc_scale_up_pb": 0.001805970000000011,
+            "unc_scale_down_pb": -0.0025610099999999955,
+            "unc_pdf_up_pb": 0.0031805251341274106,
+            "unc_pdf_down_pb": -0.0031805251341274106
+        },
+        "200": {
+            "xsec_pb": 0.0091449796,
+            "unc_up_pb": 0.0003512502261149269,
+            "unc_down_pb": -0.00034613438877016743,
+            "unc_scale_up_pb": 9.820149999999975e-05,
+            "unc_scale_down_pb": -7.794760000000029e-05,
+            "unc_pdf_up_pb": 0.0003372435125299465,
+            "unc_pdf_down_pb": -0.00033724351252995
+        },
+        "300": {
+            "xsec_pb": 0.0019152255,
+            "unc_up_pb": 8.758561672810326e-05,
+            "unc_down_pb": -8.693901537073053e-05,
+            "unc_scale_up_pb": 1.441450000000009e-05,
+            "unc_scale_down_pb": -9.74320000000006e-06,
+            "unc_pdf_up_pb": 8.639133317290643e-05,
+            "unc_pdf_down_pb": -8.639133317290686e-05
+        },
+        "400": {
+            "xsec_pb": 0.00057679266,
+            "unc_up_pb": 3.168373186703418e-05,
+            "unc_down_pb": -3.155709986167486e-05,
+            "unc_scale_up_pb": 3.5596800000000316e-06,
+            "unc_scale_down_pb": -2.159399999999924e-06,
+            "unc_pdf_up_pb": 3.148313109142289e-05,
+            "unc_pdf_down_pb": -3.148313109142289e-05
+        },
+        "500": {
+            "xsec_pb": 0.0002120831,
+            "unc_up_pb": 1.40620171451848e-05,
+            "unc_down_pb": -1.4034856381148719e-05,
+            "unc_scale_up_pb": 1.0958800000000096e-06,
+            "unc_scale_down_pb": -6.616799999999926e-07,
+            "unc_pdf_up_pb": 1.401925009467593e-05,
+            "unc_pdf_down_pb": -1.401925009467593e-05
+        },
+        "600": {
+            "xsec_pb": 8.841682e-05,
+            "unc_up_pb": 7.040107136281983e-06,
+            "unc_down_pb": -7.03255813448234e-06,
+            "unc_scale_up_pb": 3.9746399999998546e-07,
+            "unc_scale_down_pb": -2.274710000000184e-07,
+            "unc_pdf_up_pb": 7.028878349995298e-06,
+            "unc_pdf_down_pb": -7.028878349995298e-06
+        },
+        "700": {
+            "xsec_pb": 4.0208653e-05,
+            "unc_up_pb": 3.902395452610734e-06,
+            "unc_down_pb": -3.900014736340357e-06,
+            "unc_scale_up_pb": 1.646190000000004e-07,
+            "unc_scale_down_pb": -9.232599999999685e-08,
+            "unc_pdf_up_pb": 3.898921755228737e-06,
+            "unc_pdf_down_pb": -3.898921755228737e-06
+        },
+        "800": {
+            "xsec_pb": 1.9485061e-05,
+            "unc_up_pb": 2.3234122051611554e-06,
+            "unc_down_pb": -2.3223089434990876e-06,
+            "unc_scale_up_pb": 8.072999999999779e-08,
+            "unc_scale_down_pb": -3.730800000000408e-08,
+            "unc_pdf_up_pb": 2.3220092467929226e-06,
+            "unc_pdf_down_pb": -2.3220092467929226e-06
+        },
+        "900": {
+            "xsec_pb": 9.9114295e-06,
+            "unc_up_pb": 1.471736686910032e-06,
+            "unc_down_pb": -1.4711362055420809e-06,
+            "unc_scale_up_pb": 4.5159500000000054e-08,
+            "unc_scale_down_pb": -1.6499700000000787e-08,
+            "unc_pdf_up_pb": 1.4710436754755668e-06,
+            "unc_pdf_down_pb": -1.4710436754755668e-06
+        },
+        "1000": {
+            "xsec_pb": 5.2422667e-06,
+            "unc_up_pb": 9.70078245805308e-07,
+            "unc_down_pb": -9.698963029950962e-07,
+            "unc_scale_up_pb": 2.0240600000000987e-08,
+            "unc_scale_down_pb": -7.531099999999241e-09,
+            "unc_pdf_up_pb": 9.698670636207535e-07,
+            "unc_pdf_down_pb": -9.698670636207552e-07
+        }
+    }
+}
