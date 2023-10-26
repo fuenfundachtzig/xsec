@@ -136,8 +136,6 @@ def getLoadAndPlot(cme):
         PlotXsec(df, data["process_latex"])
         # 
         #dfs[filename] = df
-        df = 0
-        data = 0
 
     # draw legend and style plot
     plt.xlabel("particle mass [GeV]")
