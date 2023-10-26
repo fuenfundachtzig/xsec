@@ -4,7 +4,7 @@
     "source": "hepi-0.2.6.4+dirty",
     "contact": "Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>",
     "tool": "Resummino-resummino 3.1.1-dev",
-    "process_latex": "$\\tilde{\\chi}_{1}^{0}\\tilde{\\chi}_{2}^{0}$",
+    "process_latex": "$\\tilde{\\chi}_{1}^{0}\\tilde{\\chi}_{2}^{0} (higgsino)$",
     "comment": "0.0.0",
     "reference": "?",
     "Ecom [GeV]": "13600",
