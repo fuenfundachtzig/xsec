@@ -45,11 +45,6 @@ def PlotXsec(df, label):
 # define datasets (NOTE: files that are commented out do exist and can be used)
 filenames_13600 = [
     ## 13.6 TeV
-    #"pp13600_SGmodel_GGxsec_NNLOa+NNLL.json",
-    ##"pp13600_SGmodel_SGincxsec_NNLOa+NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
-    #"pp13600_SGmodel_SGxsec_NNLOa+NNLL.json",
-    #"pp13600_SGmodel_SSxsec_NNLOa+NNLL.json",
-    #"pp13600_SGmodel_STxsec_NNLOa+NNLL.json",
     "pp13600_gluino_NNLO+NNLL.json",
     "pp13600_gluinosquark_NNLO+NNLL.json",
     "pp13600_squark_NNLO+NNLL.json",
@@ -73,6 +68,15 @@ filenames_13600 = [
     #"pp13600_wino_sq_dep_1000023_1000024_NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
     #"pp13600_wino_sq_dep_1000024_-1000024_NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
     ]
+
+filenames_13600_strong2D = [ # Not supported for plotting yet
+    "pp13600_SGmodel_GGxsec_NNLOa+NNLL.json",
+    "pp13600_SGmodel_PRODxsec_NNLOa+NNLL.json",
+    "pp13600_SGmodel_SBxsec_NNLOa+NNLL.json",
+    "pp13600_SGmodel_SGxsec_NNLOa+NNLL.json",
+    "pp13600_SGmodel_SSxsec_NNLOa+NNLL.json"
+    ]
+
 
 filenames_13000 = [
     # 13 TeV
@@ -104,11 +108,11 @@ filenames_13000 = [
 def getLoadAndPlot(cme):
     ofname = ""
     filenames = []
-    if cme == 13000:
+    if cme == "13000":
         ofname = "SUSY_xsecs_13000GeV.pdf"
         label = "13"
         filenames = filenames_13000
-    elif cme == 13600:
+    elif cme == "13600":
         ofname = "SUSY_xsecs_13600GeV.pdf"
         label = "13.6"
         filenames = filenames_13600
@@ -154,9 +158,8 @@ def getLoadAndPlot(cme):
 
 def main():
 
-    getLoadAndPlot(13000)
-    getLoadAndPlot(13600)
-
+    getLoadAndPlot("13000")
+    getLoadAndPlot("13600")
 
 if __name__ == "__main__":
     main()
