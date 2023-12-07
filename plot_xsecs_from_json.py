@@ -49,7 +49,10 @@ filenames_13600 = [
     "pp13600_gluinosquark_NNLO+NNLL.json",
     "pp13600_squark_NNLO+NNLL.json",
     "pp13600_stopsbottom_NNLO+NNLL.json",
-    ##
+    #"pp13600_SGmodel_GGxsec_NNLOa+NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
+    #"pp13600_SGmodel_SBxsec_NNLOa+NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
+    #"pp13600_SGmodel_SGxsec_NNLOa+NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
+    #"pp13600_SGmodel_SSxsec_NNLOa+NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
     "pp13600_hino_deg_1000022_-1000024_NNLL.json",
     "pp13600_hino_deg_1000022_1000023_NNLL.json",
     "pp13600_hino_deg_1000022_1000024_NNLL.json",
@@ -69,14 +72,27 @@ filenames_13600 = [
     #"pp13600_wino_sq_dep_1000024_-1000024_NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
     ]
 
-#filenames_13600_strong2D = [ # Not supported for plotting yet
-#    "pp13600_SGmodel_GGxsec_NNLOa+NNLL.json",
-#    "pp13600_SGmodel_SBxsec_NNLOa+NNLL.json",
-#    "pp13600_SGmodel_SGxsec_NNLOa+NNLL.json",
-#    "pp13600_SGmodel_SSxsec_NNLOa+NNLL.json"
-#    ]
+filenames_13600_strong = [
+    ## 13.6 TeV
+    "pp13600_gluino_NNLO+NNLL.json",
+    "pp13600_gluinosquark_NNLO+NNLL.json",
+    "pp13600_squark_NNLO+NNLL.json",
+    "pp13600_stopsbottom_NNLO+NNLL.json",
+    ]
 
-
+filenames_13600_ewk = [
+    "pp13600_hino_deg_1000022_-1000024_NNLL.json",
+    "pp13600_hino_deg_1000022_1000023_NNLL.json",
+    "pp13600_hino_deg_1000022_1000024_NNLL.json",
+    "pp13600_hino_deg_1000024_-1000024_NNLL.json",
+    "pp13600_sleptons_1000011_-1000011_NNLL.json",
+    "pp13600_sleptons_1000015_-1000015_NNLL.json",
+    "pp13600_sleptons_2000011_-2000011_NNLL.json",
+    "pp13600_wino_1000023_-1000024_NNLL.json",
+    "pp13600_wino_1000023_1000024_NNLL.json",
+    "pp13600_wino_1000024_-1000024_NNLL.json", 
+    ] 
+    
 filenames_13000 = [
     # 13 TeV
     "pp13_gluino_NNLO+NNLL.json",
@@ -104,18 +120,28 @@ filenames_13000 = [
 
 
 # load data and plot
-def getLoadAndPlot(cme):
+def getLoadAndPlot(name):
     ofname = ""
     filenames = []
-    if cme == "13000":
+    if name == "13000":
         ofname = "SUSY_xsecs_13000GeV.pdf"
         label = "13"
         filenames = filenames_13000
         title = "$pp$, $\sqrt{s} = "+label+"$ TeV, NLO+NLL - NNLO$_\mathregular{approx}$+NNLL"
-    elif cme == "13600":
+    elif name == "13600":
         ofname = "SUSY_xsecs_13600GeV.pdf"
         label = "13.6"
         filenames = filenames_13600
+        title = "$pp$, $\sqrt{s} = "+label+"$ TeV, NNLO$_\mathregular{approx}$+NNLL"
+    elif name == "13600_strong":
+        ofname = "SUSY_xsecs_13600GeV_strong.pdf"
+        label = "13.6"
+        filenames = filenames_13600_strong
+        title = "$pp$, $\sqrt{s} = "+label+"$ TeV, NNLO$_\mathregular{approx}$+NNLL"
+    elif name == "13600_ewk":
+        ofname = "SUSY_xsecs_13600GeV_ewk.pdf"
+        label = "13.6"
+        filenames = filenames_13600_ewk
         title = "$pp$, $\sqrt{s} = "+label+"$ TeV, NNLO$_\mathregular{approx}$+NNLL"
 
     # init plotting
@@ -152,6 +178,7 @@ def getLoadAndPlot(cme):
     plt.locator_params(axis = "y", base = 100) # for log-scaled axis, it's LogLocator, not MaxNLocator
     plt.title(title, fontsize = 9, loc = "right")
     plt.savefig(ofname)
+    plt.savefig(ofname[:-3]+"png")
     plt.close()
 
 
@@ -159,6 +186,8 @@ def main():
 
     getLoadAndPlot("13000")
     getLoadAndPlot("13600")
+    getLoadAndPlot("13600_strong")
+    getLoadAndPlot("13600_ewk")
 
 if __name__ == "__main__":
     main()
