@@ -69,13 +69,12 @@ filenames_13600 = [
     #"pp13600_wino_sq_dep_1000024_-1000024_NNLL.json", # JSON files with 2 mass parameters cannot be plotted yet
     ]
 
-filenames_13600_strong2D = [ # Not supported for plotting yet
-    "pp13600_SGmodel_GGxsec_NNLOa+NNLL.json",
-    "pp13600_SGmodel_PRODxsec_NNLOa+NNLL.json",
-    "pp13600_SGmodel_SBxsec_NNLOa+NNLL.json",
-    "pp13600_SGmodel_SGxsec_NNLOa+NNLL.json",
-    "pp13600_SGmodel_SSxsec_NNLOa+NNLL.json"
-    ]
+#filenames_13600_strong2D = [ # Not supported for plotting yet
+#    "pp13600_SGmodel_GGxsec_NNLOa+NNLL.json",
+#    "pp13600_SGmodel_SBxsec_NNLOa+NNLL.json",
+#    "pp13600_SGmodel_SGxsec_NNLOa+NNLL.json",
+#    "pp13600_SGmodel_SSxsec_NNLOa+NNLL.json"
+#    ]
 
 
 filenames_13000 = [
@@ -112,10 +111,12 @@ def getLoadAndPlot(cme):
         ofname = "SUSY_xsecs_13000GeV.pdf"
         label = "13"
         filenames = filenames_13000
+        title = "$pp$, $\sqrt{s} = "+label+"$ TeV, NLO+NLL - NNLO$_\mathregular{approx}$+NNLL"
     elif cme == "13600":
         ofname = "SUSY_xsecs_13600GeV.pdf"
         label = "13.6"
         filenames = filenames_13600
+        title = "$pp$, $\sqrt{s} = "+label+"$ TeV, NNLO$_\mathregular{approx}$+NNLL"
 
     # init plotting
     plt.ion()
@@ -149,9 +150,7 @@ def getLoadAndPlot(cme):
     plt.ylim(1e-6, 1e4)
     plt.legend(ncol = 2, framealpha = 1)
     plt.locator_params(axis = "y", base = 100) # for log-scaled axis, it's LogLocator, not MaxNLocator
-    plt.title("$pp$, $\sqrt{s} = "+label+"$ TeV, NLO+NLL - NNLO$_\mathregular{approx}$+NNLL", fontsize = 9, loc = "right")
-    #plt.title("$pp$, $\sqrt{s} = 13$ TeV, NNLO$_\mathregular{approx}$+NNLL", fontsize = 9, loc = "right")
-    #plt.title("$pp$, $\sqrt{s} = 13$ TeV, NLO+NLL", fontsize = 9, loc = "right")
+    plt.title(title, fontsize = 9, loc = "right")
     plt.savefig(ofname)
     plt.close()
 
